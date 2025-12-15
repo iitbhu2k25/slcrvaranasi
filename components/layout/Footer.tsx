@@ -46,9 +46,9 @@ export default function Footer() {
     return (
         <footer>
             {/* Partners Section - Light Background */}
-            <div className="bg-gradient-to-b from-gray-50 to-gray-100 py-12">
-                <div className="max-w-7xl mx-auto px-4">
-                    <h3 className="text-center text-2xl font-bold text-primary mb-8">
+            <div className="bg-gradient-to-b from-gray-50 to-gray-100 py-8 sm:py-12">
+                <div className="max-w-7xl mx-auto px-3 sm:px-4">
+                    <h3 className="text-center text-xl sm:text-2xl font-bold text-primary mb-6 sm:mb-8">
                         Our Partners & Associates
                     </h3>
                     <LogoLoop logos={partnerLogos} speed={30} />
@@ -57,7 +57,7 @@ export default function Footer() {
 
             {/* Main Footer */}
             <div className="bg-gradient-to-b from-primary to-primary-dark text-white">
-                <div className="max-w-7xl mx-auto px-4 py-12">
+                <div className="max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                         {/* About */}
                         <div>

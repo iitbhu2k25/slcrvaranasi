@@ -37,7 +37,7 @@ export default function ActivitiesPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-12"
           >
-            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2">
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2">
               <Image
                 src="/activities/activities1.png"
                 alt="Activities 1"
@@ -50,29 +50,31 @@ export default function ActivitiesPage() {
 
           {/* Implementation Header */}
           <motion.h2
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-3xl md:text-4xl font-bold text-white mb-8 drop-shadow-lg"
+            className="text-3xl md:text-4xl font-bold text-white mb-8 drop-shadow-lg text-center"
           >
             Implementation
           </motion.h2>
 
-          {/* Activities 2 - Full Width */}
+          {/* Activities 2 - Full Width - Height matched to Activities 1 */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
             className="mb-12"
           >
-            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2">
-              <Image
-                src="/activities/activities2.png"
-                alt="Activities 2 - Implementation"
-                width={1400}
-                height={600}
-                className="w-full h-auto rounded-xl"
-              />
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2">
+              <div className="w-full overflow-hidden rounded-xl" style={{ aspectRatio: '1400/600' }}>
+                <Image
+                  src="/activities/activities2.png"
+                  alt="Activities 2 - Implementation"
+                  width={1400}
+                  height={600}
+                  className="w-full h-full object-contain rounded-xl"
+                />
+              </div>
             </div>
           </motion.div>
 
@@ -83,7 +85,7 @@ export default function ActivitiesPage() {
             transition={{ duration: 0.6, delay: 0.7 }}
             className="grid md:grid-cols-2 gap-8"
           >
-            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2">
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2">
               <Image
                 src="/activities/activities3.png"
                 alt="Activities 3"
@@ -92,7 +94,7 @@ export default function ActivitiesPage() {
                 className="w-full h-auto rounded-xl"
               />
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2">
+            <div className="rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2">
               <Image
                 src="/activities/activities4.png"
                 alt="Activities 4"

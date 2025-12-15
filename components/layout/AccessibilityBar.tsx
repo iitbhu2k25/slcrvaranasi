@@ -36,7 +36,8 @@ export default function AccessibilityBar() {
     };
 
     return (
-        <div className="bg-gov-primary text-white text-sm">
+        // Hidden on mobile (< 768px), visible on md and up
+        <div className="hidden md:block bg-gov-primary text-white text-sm">
             <div className="max-w-7xl mx-auto px-4 py-1.5 flex flex-wrap items-center justify-between gap-2">
                 {/* Left: Skip Links & Screen Reader */}
                 <div className="flex items-center gap-4">
@@ -52,7 +53,7 @@ export default function AccessibilityBar() {
                         aria-label="Screen Reader Access"
                     >
                         <Volume2 size={14} />
-                        <span className="hidden sm:inline">Screen Reader</span>
+                        <span>Screen Reader</span>
                     </button>
                 </div>
 
@@ -60,7 +61,7 @@ export default function AccessibilityBar() {
                 <div className="flex items-center gap-3">
                     {/* Font Size Controls */}
                     <div className="flex items-center gap-1 border-r border-white/30 pr-3">
-                        <span className="hidden sm:inline mr-1">Font Size:</span>
+                        <span className="mr-1">Font Size:</span>
                         <button
                             onClick={decreaseFont}
                             className="w-6 h-6 flex items-center justify-center hover:bg-white/20 rounded transition-colors focus:outline-none focus:ring-2 focus:ring-white"
@@ -94,7 +95,7 @@ export default function AccessibilityBar() {
                         aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
                     >
                         {isDarkMode ? <Sun size={14} /> : <Moon size={14} />}
-                        <span className="hidden sm:inline">{isDarkMode ? 'Light' : 'Dark'}</span>
+                        <span>{isDarkMode ? 'Light' : 'Dark'}</span>
                     </button>
 
                     {/* Language Switcher */}

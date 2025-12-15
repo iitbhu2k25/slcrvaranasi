@@ -41,12 +41,12 @@ function TopBar() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-gradient-to-r from-orange-500 via-orange-400 to-orange-500 text-white text-xs",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[2800px] mx-auto px-4 py-1",
+            className: "max-w-[2800px] mx-auto px-3 sm:px-4 py-1",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex items-center justify-between",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-4",
+                        className: "flex items-center gap-2 sm:gap-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "https://www.india.gov.in/",
@@ -57,7 +57,7 @@ function TopBar() {
                                     className: "flex flex-col leading-tight",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "font-medium",
+                                            className: "font-medium text-[10px] sm:text-xs",
                                             children: "भारत सरकार"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/TopBar.tsx",
@@ -65,7 +65,7 @@ function TopBar() {
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-[10px] opacity-90",
+                                            className: "text-[8px] sm:text-[10px] opacity-90",
                                             children: "Government of India"
                                         }, void 0, false, {
                                             fileName: "[project]/components/layout/TopBar.tsx",
@@ -84,7 +84,7 @@ function TopBar() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-white/50",
+                                className: "text-white/50 hidden sm:inline",
                                 children: "|"
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/TopBar.tsx",
@@ -95,7 +95,7 @@ function TopBar() {
                                 href: "https://jalshakti-dowr.gov.in/",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "hover:text-white/80 transition-colors hidden md:block",
+                                className: "hover:text-white/80 transition-colors hidden sm:block",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex flex-col leading-tight",
                                     children: [
@@ -176,11 +176,11 @@ function TopBar() {
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-3",
+                        className: "flex items-center gap-2 sm:gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#main-content",
-                                className: "hover:text-white/80 transition-colors uppercase tracking-wide text-[10px] font-medium hidden sm:inline",
+                                className: "hover:text-white/80 transition-colors uppercase tracking-wide text-[10px] font-medium hidden md:inline",
                                 children: "Skip to Main Content"
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/TopBar.tsx",
@@ -188,7 +188,7 @@ function TopBar() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-white/50 hidden sm:inline",
+                                className: "text-white/50 hidden md:inline",
                                 children: "|"
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/TopBar.tsx",
@@ -200,7 +200,7 @@ function TopBar() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: increaseFontSize,
-                                        className: "px-1.5 py-0.5 hover:bg-white/20 rounded transition-colors font-bold",
+                                        className: "px-1 sm:px-1.5 py-0.5 hover:bg-white/20 rounded transition-colors font-bold text-[10px] sm:text-xs",
                                         "aria-label": "Increase font size",
                                         title: "Increase font size",
                                         children: "A+"
@@ -211,7 +211,7 @@ function TopBar() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: resetFontSize,
-                                        className: "px-1.5 py-0.5 hover:bg-white/20 rounded transition-colors font-bold",
+                                        className: "px-1 sm:px-1.5 py-0.5 hover:bg-white/20 rounded transition-colors font-bold text-[10px] sm:text-xs hidden sm:block",
                                         "aria-label": "Reset font size",
                                         title: "Reset font size",
                                         children: "T+"
@@ -222,7 +222,7 @@ function TopBar() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: decreaseFontSize,
-                                        className: "px-1.5 py-0.5 hover:bg-white/20 rounded transition-colors font-bold",
+                                        className: "px-1 sm:px-1.5 py-0.5 hover:bg-white/20 rounded transition-colors font-bold text-[10px] sm:text-xs",
                                         "aria-label": "Decrease font size",
                                         title: "Decrease font size",
                                         children: "A-"
@@ -238,7 +238,7 @@ function TopBar() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-white/50",
+                                className: "text-white/50 hidden sm:inline",
                                 children: "|"
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/TopBar.tsx",
@@ -250,7 +250,8 @@ function TopBar() {
                                 "aria-label": "Search",
                                 title: "Search",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
-                                    size: 14
+                                    size: 12,
+                                    className: "sm:w-3.5 sm:h-3.5"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/TopBar.tsx",
                                     lineNumber: 120,
@@ -303,10 +304,10 @@ function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: "bg-white shadow-sm relative z-40",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[1800px] mx-auto px-2 md:px-4 py-4",
+            className: "max-w-[1800px] mx-auto px-3 sm:px-4 py-3 sm:py-4",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-center justify-between gap-2 md:gap-3",
+                    className: "hidden md:flex items-center justify-between gap-3",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "https://um.dk/en",
@@ -318,7 +319,7 @@ function Header() {
                                 alt: "Denmark Ministry of Foreign Affairs",
                                 width: 200,
                                 height: 80,
-                                className: "h-10 md:h-12 w-auto object-contain",
+                                className: "h-12 w-auto object-contain",
                                 priority: true,
                                 unoptimized: true
                             }, void 0, false, {
@@ -341,7 +342,7 @@ function Header() {
                                 alt: "Ministry of Jal Shakti",
                                 width: 90,
                                 height: 80,
-                                className: "h-10 md:h-12 w-auto object-contain",
+                                className: "h-12 w-auto object-contain",
                                 style: {
                                     filter: 'none'
                                 },
@@ -357,12 +358,12 @@ function Header() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "hidden md:block text-center flex-1 px-2",
+                            className: "text-center flex-1 px-2",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
                                 className: "inline-block",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                                    className: "text-xl lg:text-3xl xl:text-3xl font-bold text-primary tracking-tight hover:text-primary-light transition-colors",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-xl lg:text-2xl xl:text-3xl font-bold text-primary tracking-tight hover:text-primary-light transition-colors",
                                     children: "Smart Laboratory on Clean Rivers"
                                 }, void 0, false, {
                                     fileName: "[project]/components/layout/Header.tsx",
@@ -387,7 +388,7 @@ function Header() {
                                 alt: "SLCR Logo",
                                 width: 180,
                                 height: 180,
-                                className: "h-10 md:h-12 w-auto object-contain",
+                                className: "h-12 w-auto object-contain",
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
@@ -409,7 +410,7 @@ function Header() {
                                 alt: "Namami Gange Programme",
                                 width: 70,
                                 height: 50,
-                                className: "h-10 md:h-12 w-auto object-contain",
+                                className: "h-12 w-auto object-contain",
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/components/layout/Header.tsx",
@@ -428,33 +429,141 @@ function Header() {
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "md:hidden text-center mt-3 pt-3 border-t border-gray-100",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-base font-bold text-primary",
-                                children: "Smart Laboratory on Clean Rivers"
-                            }, void 0, false, {
+                    className: "md:hidden",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center justify-between gap-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "https://um.dk/en",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "shrink-0 hover:opacity-80 transition-opacity",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/denmark.png",
+                                        alt: "Denmark Ministry of Foreign Affairs",
+                                        width: 200,
+                                        height: 80,
+                                        className: "h-8 sm:h-10 w-auto object-contain",
+                                        priority: true,
+                                        unoptimized: true
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Header.tsx",
+                                        lineNumber: 100,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/layout/Header.tsx",
+                                    lineNumber: 94,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "https://jalshakti.gov.in/",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "shrink-0 hover:opacity-80 transition-opacity",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Ministry_of_Jal_Shakti.svg",
+                                        alt: "Ministry of Jal Shakti",
+                                        width: 90,
+                                        height: 80,
+                                        className: "h-8 sm:h-10 w-auto object-contain",
+                                        style: {
+                                            filter: 'none'
+                                        },
+                                        priority: true
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Header.tsx",
+                                        lineNumber: 117,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/layout/Header.tsx",
+                                    lineNumber: 111,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/",
+                                    className: "shrink-0 hover:opacity-80 transition-opacity",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/Logo_edited.png",
+                                        alt: "SLCR Logo",
+                                        width: 180,
+                                        height: 180,
+                                        className: "h-8 sm:h-10 w-auto object-contain",
+                                        priority: true
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Header.tsx",
+                                        lineNumber: 132,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/layout/Header.tsx",
+                                    lineNumber: 128,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "https://nmcg.nic.in/",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    className: "shrink-0 hover:opacity-80 transition-opacity",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/namiti_gange.gif",
+                                        alt: "Namami Gange Programme",
+                                        width: 70,
+                                        height: 50,
+                                        className: "h-8 sm:h-10 w-auto object-contain",
+                                        priority: true
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Header.tsx",
+                                        lineNumber: 148,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/layout/Header.tsx",
+                                    lineNumber: 142,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/layout/Header.tsx",
+                            lineNumber: 93,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-center mt-3 pt-3 border-t border-gray-100",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                        className: "text-sm sm:text-base font-bold text-primary leading-tight",
+                                        children: "Smart Laboratory on Clean Rivers"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Header.tsx",
+                                        lineNumber: 162,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-gray-500 mt-0.5",
+                                        children: "Varanasi"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/layout/Header.tsx",
+                                        lineNumber: 165,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/layout/Header.tsx",
-                                lineNumber: 93,
-                                columnNumber: 25
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[10px] text-gray-500",
-                                children: "Varanasi"
-                            }, void 0, false, {
-                                fileName: "[project]/components/layout/Header.tsx",
-                                lineNumber: 96,
+                                lineNumber: 161,
                                 columnNumber: 25
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/layout/Header.tsx",
-                        lineNumber: 92,
-                        columnNumber: 21
-                    }, this)
-                }, void 0, false, {
+                        }, void 0, false, {
+                            fileName: "[project]/components/layout/Header.tsx",
+                            lineNumber: 160,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/components/layout/Header.tsx",
                     lineNumber: 91,
                     columnNumber: 17
@@ -1092,12 +1201,12 @@ function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-gradient-to-b from-gray-50 to-gray-100 py-12",
+                className: "bg-gradient-to-b from-gray-50 to-gray-100 py-8 sm:py-12",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-4",
+                    className: "max-w-7xl mx-auto px-3 sm:px-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: "text-center text-2xl font-bold text-primary mb-8",
+                            className: "text-center text-xl sm:text-2xl font-bold text-primary mb-6 sm:mb-8",
                             children: "Our Partners & Associates"
                         }, void 0, false, {
                             fileName: "[project]/components/layout/Footer.tsx",
@@ -1126,7 +1235,7 @@ function Footer() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-gradient-to-b from-primary to-primary-dark text-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-4 py-12",
+                    className: "max-w-7xl mx-auto px-3 sm:px-4 py-8 sm:py-12",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10",
                         children: [

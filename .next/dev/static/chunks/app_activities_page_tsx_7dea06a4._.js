@@ -69,7 +69,7 @@ function ActivitiesPage() {
                             },
                             className: "mb-12",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2",
+                                className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/activities/activities1.png",
                                     alt: "Activities 1",
@@ -94,17 +94,17 @@ function ActivitiesPage() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h2, {
                             initial: {
                                 opacity: 0,
-                                x: -30
+                                y: -20
                             },
                             animate: {
                                 opacity: 1,
-                                x: 0
+                                y: 0
                             },
                             transition: {
                                 duration: 0.6,
                                 delay: 0.4
                             },
-                            className: "text-3xl md:text-4xl font-bold text-white mb-8 drop-shadow-lg",
+                            className: "text-3xl md:text-4xl font-bold text-white mb-8 drop-shadow-lg text-center",
                             children: "Implementation"
                         }, void 0, false, {
                             fileName: "[project]/app/activities/page.tsx",
@@ -126,13 +126,23 @@ function ActivitiesPage() {
                             },
                             className: "mb-12",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/activities/activities2.png",
-                                    alt: "Activities 2 - Implementation",
-                                    width: 1400,
-                                    height: 600,
-                                    className: "w-full h-auto rounded-xl"
+                                className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "w-full overflow-hidden rounded-xl",
+                                    style: {
+                                        aspectRatio: '1400/600'
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/activities/activities2.png",
+                                        alt: "Activities 2 - Implementation",
+                                        width: 1400,
+                                        height: 600,
+                                        className: "w-full h-full object-contain rounded-xl"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/activities/page.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 17
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/activities/page.tsx",
                                     lineNumber: 69,
@@ -164,7 +174,7 @@ function ActivitiesPage() {
                             className: "grid md:grid-cols-2 gap-8",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2",
+                                    className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/activities/activities3.png",
                                         alt: "Activities 3",
@@ -173,16 +183,16 @@ function ActivitiesPage() {
                                         className: "w-full h-auto rounded-xl"
                                     }, void 0, false, {
                                         fileName: "[project]/app/activities/page.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 89,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/activities/page.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-sm p-2",
+                                    className: "rounded-2xl overflow-hidden shadow-2xl bg-white/10 p-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         src: "/activities/activities4.png",
                                         alt: "Activities 4",
@@ -191,18 +201,18 @@ function ActivitiesPage() {
                                         className: "w-full h-auto rounded-xl"
                                     }, void 0, false, {
                                         fileName: "[project]/app/activities/page.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 98,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/activities/page.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/activities/page.tsx",
-                            lineNumber: 80,
+                            lineNumber: 82,
                             columnNumber: 11
                         }, this)
                     ]
