@@ -11,7 +11,7 @@ const teamMembers = {
             name: "Prof. Shishir Gaur",
             designation: "Professor, Dept. of Civil Engg., IIT (BHU), Varanasi",
             role: "Principal Investigator",
-            image: "/project_images/SECR/sgs.png",
+            image: "/project_images/SECR/ssgs.png",
         },
         {
             name: "Prof. Anurag Ohri",
@@ -60,7 +60,7 @@ const teamMembers = {
         {
             name: "Shri Amit Kumar Sonkar",
             designation: "Project Assistant",
-            image: "/project_images/SECR/Amit.JPG",
+            image: "/project_images/SECR/amit.jpg",
         },
     ],
     admin: [
@@ -161,13 +161,21 @@ export default function SECRProject() {
                             <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">About SLCR Secretariat</h2>
                             <div className="prose prose-lg max-w-none text-justify">
                                 <p className="text-gray-700 leading-relaxed mb-4">
-                                    The <strong className="text-primary">Smart Laboratory on Clean Rivers (SLCR)</strong> Secretariat serves as the central coordination hub for all SLCR initiatives in Varanasi. It facilitates collaboration between various stakeholders, research institutions, and government bodies working towards river conservation and restoration.
+                                    The <strong className="text-primary">Smart Laboratory on Clean Rivers (SLCR)</strong>
+                                    , an initiative of IIT (BHU) and NMCG under the India-Denmark Green Strategic Partnership, established in Varanasi,
+                                    is dedicated to bringing global sustainable solutions to current challenges in the field of clean rivers for the rejuvenation of streams and
+                                    rivers through collaborative efforts with government bodies, institutions, technology providers, and local communities, using a
+                                    living-lab approach at the Varuna River.
                                 </p>
                                 <p className="text-gray-700 leading-relaxed mb-4">
-                                    The Secretariat is responsible for comprehensive assessment of river health indicators including biodiversity, water quality parameters, and sediment analysis. It also focuses on developing nature-based solutions for sustainable river restoration.
-                                </p>
-                                <p className="text-gray-700 leading-relaxed">
-                                    Through strategic partnerships and innovative approaches, the Secretariat aims to establish a model framework for river conservation that can be replicated across other river basins in India, contributing to the national mission of clean rivers.
+                                    The Secretariat of Smart Laboratory on Clean Rivers (SLCR) in Varanasi has been set up in Department of Civil Engineering, Indian
+                                    Institute of Technology, Banaras Hindu University, Varanasi under the Green Strategic Partnership between India and Denmark.{" "}
+                                    {/* --- HIGHLIGHT ADJUSTMENT HERE: font-semibold text-gray-900 (Bold Black) --- */}
+                                    <span className="font-semibold text-gray-900">
+                                        Work is ongoing by a team of dedicated officials on the various aspects of sustainable and holistic rejuvenation of small rivers initiating in
+                                    </span>{" "}
+                                    river Varuna in Varanasi which is being established as a living lab for small rivers wherein various activities and projects are being
+                                    taken up in the initial phase.
                                 </p>
                             </div>
                         </motion.div>
@@ -181,7 +189,7 @@ export default function SECRProject() {
                         >
                             <div className="rounded-2xl overflow-hidden shadow-2xl w-full h-full bg-white relative">
                                 <Image
-                                    src="/project_images/ng2.png"
+                                    src="/project_images/lab_component.png"
                                     alt="SLCR Secretariat"
                                     fill
                                     quality={100}
@@ -200,52 +208,40 @@ export default function SECRProject() {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-center mb-12"
+                        className="text-left mb-12"
                     >
-                        <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-4">Key Objectives</h2>
-                        <p className="text-gray-600 max-w-2xl mx-auto">The SLCR Secretariat works towards achieving comprehensive river restoration goals</p>
+                        <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-8 text-center">Key Objectives</h2>
+                        
+                        <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                            <ul className="space-y-4 text-gray-700 text-lg leading-relaxed">
+                                <li className="flex gap-4">
+                                    <span className="font-bold text-primary min-w-[24px]"></span>
+                                    <span>
+                                        SLCR will develop the repository of all collected knowledge and technologies, which can be shared through various initiatives like River Cities Alliance/Global River Cities Alliance to perform rejuvenation work on other small rivers or tributaries in India and in GRCA member countries.
+                                    </span>
+                                </li>
+                                <li className="flex gap-4">
+                                    <span className="font-bold text-primary min-w-[24px]"></span>
+                                    <span>
+                                        Create a platform between Government authorities, Knowledge institutions, technology providers and citizens for knowledge sharing and co-creation to achieve clean river water.
+                                    </span>
+                                </li>
+                                <li className="flex gap-4">
+                                    <span className="font-bold text-primary min-w-[24px]"></span>
+                                    <span>
+                                        To bring the global solutions on current challenges in the field of clean river water and conduct research and development to fit in real environment through Living lab approach to make them scalable and economically attractive.
+                                    </span>
+                                </li>
+                                <li className="flex gap-4">
+                                    <span className="font-bold text-primary min-w-[24px]"></span>
+                                    <span>
+                                        To Support NMCG in achieving its vision by focusing on small rivers & provide preliminary solution for the local problems and provide inputs for Urban River Management Plans and other interventions being carried out by other agencies.
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
                     </motion.div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {[
-                            {
-                                title: "Coordination Hub",
-                                description: "Central coordination for all SLCR initiatives and stakeholder collaboration"
-                            },
-                            {
-                                title: "Research Facilitation",
-                                description: "Supporting research activities and knowledge sharing across institutions"
-                            },
-                            {
-                                title: "Policy Development",
-                                description: "Developing policies and guidelines for sustainable river management"
-                            },
-                            {
-                                title: "Capacity Building",
-                                description: "Training programs and workshops for skill development"
-                            },
-                            {
-                                title: "Community Engagement",
-                                description: "Involving local communities in river conservation efforts"
-                            },
-                            {
-                                title: "Monitoring & Evaluation",
-                                description: "Continuous monitoring of project progress and impact assessment"
-                            }
-                        ].map((objective, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: index * 0.1 }}
-                                className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100"
-                            >
-                                <h3 className="text-lg font-bold text-primary mb-2">{objective.title}</h3>
-                                <p className="text-gray-600 text-sm">{objective.description}</p>
-                            </motion.div>
-                        ))}
-                    </div>
                 </div>
             </section>
 

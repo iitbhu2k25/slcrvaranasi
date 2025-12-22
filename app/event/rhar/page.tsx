@@ -11,13 +11,13 @@ const rharPhotos = [
   { src: '/rhar/RHAR_2025.jpg', alt: 'RHAR 2025 Conference' },
   { src: '/rhar/RHAR_conference_2025.jpg', alt: 'RHAR Conference 2025' },
   { src: '/rhar/RHAR_conference_2025_.jpg', alt: 'RHAR Conference 2025 Event' },
-  { src: '/rhar/rhar1.jpg', alt: 'RHAR 2025 Conference' },
-  { src: '/rhar/rhar2.jpg', alt: 'RHAR 2025 Conference' },
-  { src: '/rhar/rhar3.jpg', alt: 'RHAR 2025 Conference' },
-  { src: '/rhar/rhar7.jpg', alt: 'RHAR 2025 Conference' },
-  { src: '/rhar/rhar4.jpg', alt: 'RHAR 2025 Conference' },
-  { src: '/rhar/rhar5.jpg', alt: 'RHAR 2025 Conference' },
-  { src: '/rhar/rhar6.jpg', alt: 'RHAR 2025 Conference' },
+  { src: '/rhar/rhar1.JPG', alt: 'RHAR 2025 Conference' },
+  { src: '/rhar/rhar2.JPG', alt: 'RHAR 2025 Conference' },
+  { src: '/rhar/rhar3.JPG', alt: 'RHAR 2025 Conference' },
+  { src: '/rhar/rhar7.JPG', alt: 'RHAR 2025 Conference' },
+  { src: '/rhar/rhar4.JPG', alt: 'RHAR 2025 Conference' },
+  { src: '/rhar/rhar5.JPG', alt: 'RHAR 2025 Conference' },
+  { src: '/rhar/rhar6.JPG', alt: 'RHAR 2025 Conference' },
 ];
 
 export default function RHAR2025Page() {

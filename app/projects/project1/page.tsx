@@ -30,7 +30,7 @@ const teamMembers = {
     {
       name: "Dr. Akash Tiwari",
       designation: "Research Associate",
-      image: "/project_images/DSS/aks.jpg",
+      image: "/project_images/DSS/akss.JPG",
     },
     {
       name: "Dr. Alok Raj",

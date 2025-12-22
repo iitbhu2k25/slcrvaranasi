@@ -50,7 +50,7 @@ export default function EPFAProject() {
       <section
         className="relative min-h-[50vh] sm:min-h-[60vh] flex items-center justify-center overflow-hidden"
         style={{
-          backgroundImage: "url('/project_images/pollutants.JPG')",
+          backgroundImage: "url('/project_images/pollutants.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -142,7 +142,7 @@ export default function EPFAProject() {
             >
               <div className="rounded-2xl overflow-hidden shadow-2xl w-full h-full bg-white relative">
                 <Image
-                  src="/project_images/pollutants1.JPG"
+                  src="/project_images/pollutants1.jpg"
                   alt="Emerging Pollutants Analysis"
                   fill
                   quality={100}

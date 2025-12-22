@@ -27,7 +27,7 @@ const projects = [
     title: 'Characterization of Emerging Pollutants & Fingerprint Analysis',
     subtitle: '',
     description: 'Aims to create a detailed fingerprint library, enhance water quality monitoring, and propose effective remediation strategies. Jointly working with the team from the University of Copenhagen.',
-    image: '/project_images/pollutants.JPG',
+    image: '/project_images/pollutants.jpg',
     icon: FlaskConical,
   },
   {
