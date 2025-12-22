@@ -6,6 +6,7 @@
   "/page": "app/page.js",
   "/projects/page": "app/projects/page.js",
   "/projects/project1/page": "app/projects/project1/page.js",
+  "/projects/project2/page": "app/projects/project2/page.js",
   "/projects/project3/page": "app/projects/project3/page.js",
   "/projects/project4/page": "app/projects/project4/page.js"
 }

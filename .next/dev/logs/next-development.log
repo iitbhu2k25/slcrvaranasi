@@ -1249,3 +1249,928 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 [01:03:26.660] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [01:03:26.660] Browser WARN    Image with src "/project_images/lab_component.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:21:11.951] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:12.110] Browser WARN    Image with src "/project_images/lab_component.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/ao.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image3.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image1.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image6.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/amit.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/chandan.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/krishna.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/project_images/SECR/image4.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:12.110] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:21:12.110] Browser WARN    Image with src "/project_images/lab_component.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:21:19.124] Browser WARN    Image with src "/project_images/ng5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:19.124] Browser WARN    Image with src "/project_images/ng3.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:19.124] Browser WARN    Image with src "/project_images/ng4.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:19.124] Browser WARN    Image with src "/project_images/ng1.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:19.124] Browser WARN    Image with src "/project_images/ng2.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:19.124] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:21:19.124] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:21:19.124] Browser WARN    Image with src "/project_images/pollutants.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:21:19.124] Browser WARN    Image with src "/project_images/new3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:21:19.124] Browser WARN    Image with src "/project_images/varuna1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:21.094] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:21:44.456] Server  LOG      ✓ Compiled in 40ms
+[01:25:00.343] Server  WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.344] Server  WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.345] Server  WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.346] Server  WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.347] Server  WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.347] Server  WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.348] Server  WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.350] Server  WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.350] Server  WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.351] Server  WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.358] Server  WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.359] Server  WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.360] Server  WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.361] Server  WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.363] Server  WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.363] Server  WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.364] Server  WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.365] Server  WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:00.724] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:25:00.724] Browser WARN    Image with src "/project_images/DSS/aos.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:25:01.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:01.843] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:25:01.843] Browser WARN    Image with src "/project_images/DSS/aos.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:25:02.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.733] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:25:02.852] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:02.909] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:25:02.909] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:25:03.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.092] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:25:03.092] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:25:03.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/ssgs.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:25:03.426] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:25:03.426] Browser WARN    Image with src "/project_images/DSS/aos.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:25:45.274] Server  LOG      ✓ Compiled in 43ms
+[01:25:45.347] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/project_images/DSS/sg_sir.png" "received" null
+[01:25:46.273] Browser WARN    Image with src "/project_images/DSS/sg_sir.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:27:34.690] Server  LOG      ✓ Compiled in 42ms
+[01:27:35.274] Browser WARN    Image with src "/project_images/DSS/sss.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.785] Server  WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.787] Server  WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.787] Server  WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.788] Server  WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.789] Server  WARN    Image with src "/project_images/DSS/sss.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.790] Server  WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.791] Server  WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.792] Server  WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.792] Server  WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.793] Server  WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.794] Server  WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.795] Server  WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.796] Server  WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.797] Server  WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.797] Server  WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.798] Server  WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.801] Server  WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.802] Server  WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:11.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/sss.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:12.126] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:46:12.126] Browser WARN    Image with src "/project_images/DSS/aos.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:46:23.115] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:46:23.765] Browser LOG     HLS Support: true
+[01:46:23.765] Browser LOG     Video src: /Videos/master.m3u8
+[01:46:23.765] Browser LOG     [log] > Debug logs enabled for "Hls instance" in hls.js version 1.6.15
+[01:46:23.765] Browser LOG     [log] > stopLoad
+[01:46:23.765] Browser LOG     [log] > loadSource:http://localhost:3000/Videos/master.m3u8
+[01:46:23.765] Browser LOG     [log] > [interstitials]: clear schedule state
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Trigger BUFFER_RESET
+[01:46:23.765] Browser LOG     [log] > attachMedia
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: created media source: MediaSource
+[01:46:23.765] Browser LOG     [log] > destroy
+[01:46:23.765] Browser LOG     [log] > detachMedia
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: media source detaching
+[01:46:23.765] Browser LOG     [log] > [interstitials]: clear schedule state
+[01:46:23.765] Browser LOG     HLS Support: true
+[01:46:23.765] Browser LOG     Video src: /Videos/master.m3u8
+[01:46:23.765] Browser LOG     [log] > Debug logs enabled for "Hls instance" in hls.js version 1.6.15
+[01:46:23.765] Browser LOG     [log] > stopLoad
+[01:46:23.765] Browser LOG     [log] > loadSource:http://localhost:3000/Videos/master.m3u8
+[01:46:23.765] Browser LOG     [log] > [interstitials]: clear schedule state
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Trigger BUFFER_RESET
+[01:46:23.765] Browser LOG     [log] > attachMedia
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: created media source: MediaSource
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: Media source opened
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: checkPendingTracks (pending: 0 codec events expected: 0) {}
+[01:46:23.765] Browser LOG     [log] > [level-controller]: manifest loaded, 3 level(s) found, first bitrate: 5000000
+[01:46:23.765] Browser LOG     [log] > [abr]: setting initial bwe to 5000000
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: 1 bufferCodec event(s) expected.
+[01:46:23.765] Browser LOG     HLS Manifest parsed - video ready
+[01:46:23.765] Browser LOG     [log] > auto startLoad with configured startPosition -1
+[01:46:23.765] Browser LOG     [log] > startLoad(-1)
+[01:46:23.765] Browser LOG     [log] > [abr]: picked start tier {"videoRanges":[],"preferHDR":false,"minFramerate":0,"minBitrate":5000000,"minIndex":null}
+[01:46:23.765] Browser INFO    [info] > [abr]: switch candidate:2->2 adjustedbw(5000000)-bitrate=0 ttfb:0.1 avgDuration:0.0 maxFetchDuration:4.0 fetchDuration:0.2 firstSelection:true codecSet: videoRange:SDR hls.loadLevel:-1
+[01:46:23.765] Browser LOG     [log] > [level-controller]: Switching to level 2 (1080p SDR @5000000) from level -1
+[01:46:23.765] Browser LOG     [log] > [level-controller]: Loading level index 2 http://localhost:3000/Videos/playlist_0.m3u8
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: STOPPED->IDLE
+[01:46:23.765] Browser LOG     [log] > [subtitle-stream-controller]: STOPPED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Level 2 loaded [0,19][part-19--1], cc [0, 0] duration:197.46
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: setting startPosition to 0 by default
+[01:46:23.765] Browser LOG     [log] > [interstitials]: [checkStart] Advancing timeline position to 0
+[01:46:23.765] Browser LOG     [log] > [interstitials]: setSchedulePosition 0, undefined ([primary: 0.00-197.46]) pos: 0
+[01:46:23.765] Browser LOG     [log] > [interstitials]: INTERSTITIALS_BUFFERED_TO_BOUNDARY [primary: 0.00-197.46]
+[01:46:23.765] Browser LOG     [log] > [interstitials]: resuming [primary: 0.00-197.46]
+[01:46:23.765] Browser LOG     [log] > [interstitials]: [attachPrimary] Advancing timeline position to 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: Updating MediaSource duration to 197.460
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 0 of level 2 (frag:[0.000-14.480]) cc: 0 [0-19], target: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [transmuxer-interface]: Starting new transmux session for main sn: 0 level: 2 id: 1
+        discontinuity: true
+        trackSwitch: true
+        contiguous: false
+        accurateTimeOffset: true
+        timeOffset: 0
+        initSegmentChange: true
+[01:46:23.765] Browser LOG     [log] > [mp4-remuxer]: ISGenerated flag reset
+[01:46:23.765] Browser LOG     [log] > [mp4-remuxer]: Reset initPTS: null > null
+[01:46:23.765] Browser LOG     [log] > [mp4-remuxer]: reset next timestamp
+[01:46:23.765] Browser LOG     [log] > manifest codec:undefined, parsed codec:mp4a.40.2, channels:2, rate:48000 (ADTS object type:2 sampling index:3)
+[01:46:23.765] Browser LOG     [log] > [mp4-remuxer]: Found initPTS at playlist time: 0 offset: 1.4186666666666667 (127680/90000) trackId: 1
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Init audio buffer, container:audio/mp4, codecs[selected/level/parsed]=[mp4a.40.2//mp4a.40.2]
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Init video buffer, container:video/mp4, codecs[level/parsed]=[/avc1.64002a]
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: BUFFER_CODECS: "audio,video" (current SB count 0)
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: checkPendingTracks (pending: 2 codec events expected: 1) {"audio":{"listeners":[],"codec":"mp4a.40.2","container":"audio/mp4","levelCodec":"mp4a.40.2","metadata":{"channelCount":2},"id":"main"},"video":{"listeners":[],"codec":"avc1.64002a","container":"video/mp4","metadata":{"width":1920,"height":1080},"id":"main"}}
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: creating sourceBuffer(audio/mp4;codecs=mp4a.40.2) {"listeners":[],"codec":"mp4a.40.2","container":"audio/mp4","levelCodec":"mp4a.40.2","metadata":{"channelCount":2},"id":"main"}
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: creating sourceBuffer(video/mp4;codecs=avc1.64002a) {"listeners":[],"codec":"avc1.64002a","container":"video/mp4","metadata":{"width":1920,"height":1080},"id":"main"}
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: SourceBuffers created. Running queue: 
+video: (SourceBuffer) 
+audio: (SourceBuffer) 
+audiovideo: (none) }
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 0 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 0 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [audio-stream-controller]: InitPTS for cc: 0 found from main: 1.4186666666666667 (127680/90000) trackId: 1
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 0 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 0 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 0 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 0 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 0 of level 2 (frag:[0.000-14.501])
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: Updating audio SourceBuffer timestampOffset to -1.4186666666666667 (sn: 0 cc: 0)
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: Updating video SourceBuffer timestampOffset to -1.4186666666666667 (sn: 0 cc: 0)
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 0 of level 2 (frag:[0.000-14.501] > buffer:[0.021-14.464])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 1 of level 2 (frag:[14.464-22.484]) cc: 0 [0-19], target: 14.464
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 1 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 1 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 1 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 1 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 1 of level 2 (frag:[14.464-22.521])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 1 of level 2 (frag:[14.464-22.521] > buffer:[0.021-22.485])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 2 of level 2 (frag:[22.485-31.865]) cc: 0 [0-19], target: 22.485
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 2 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 2 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 2 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 2 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 2 of level 2 (frag:[22.485-31.901])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 2 of level 2 (frag:[22.485-31.901] > buffer:[0.021-31.872])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 3 of level 2 (frag:[31.872-41.972]) cc: 0 [0-19], target: 31.872
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 3 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 3 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 3 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 3 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 3 of level 2 (frag:[31.872-42.001])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 3 of level 2 (frag:[31.872-42.001] > buffer:[0.021-41.963])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 4 of level 2 (frag:[41.963-50.523]) cc: 0 [0-19], target: 41.963
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 4 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 4 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 4 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 4 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 4 of level 2 (frag:[41.963-50.561])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 4 of level 2 (frag:[41.963-50.561] > buffer:[0.021-50.539])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 5 of level 2 (frag:[50.539-62.279]) cc: 0 [0-19], target: 50.539
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 5 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 5 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 5 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 5 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 5 of level 2 (frag:[50.539-62.301])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 5 of level 2 (frag:[50.539-62.301] > buffer:[0.021-62.272])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 6 of level 2 (frag:[62.272-72.272]) cc: 0 [0-19], target: 62.272
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 6 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 6 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 6 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 6 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 6 of level 2 (frag:[62.272-72.301])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 6 of level 2 (frag:[62.272-72.301] > buffer:[0.021-72.277])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 7 of level 2 (frag:[72.277-84.817]) cc: 0 [0-19], target: 72.277
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 7 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 7 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 7 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 7 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 7 of level 2 (frag:[72.277-84.841])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 7 of level 2 (frag:[72.277-84.841] > buffer:[0.021-84.821])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 8 of level 2 (frag:[84.821-91.961]) cc: 0 [0-19], target: 84.821
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 8 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 8 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 8 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 8 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 8 of level 2 (frag:[84.821-91.981])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 8 of level 2 (frag:[84.821-91.981] > buffer:[0.021-91.947])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loading main sn: 9 of level 2 (frag:[91.947-104.627]) cc: 0 [0-19], target: 91.947
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 9 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 9 of level 2 cc: 0
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Loaded main sn: 9 of level 2
+[01:46:23.765] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 9 of level 2
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Parsed main sn: 9 of level 2 (frag:[91.947-104.661])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: Buffered main sn: 9 of level 2 (frag:[91.947-104.661] > buffer:[0.021-104.640])
+[01:46:23.765] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:12.652] Server  LOG      ✓ Compiled in 43ms
+[01:47:54.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:54.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:54.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:55.090] Browser WARN    Image with src "/namiti_gange.gif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:47:55.090] Browser LOG     HLS Support: true
+[01:47:55.090] Browser LOG     Video src: /Videos/master.m3u8
+[01:47:55.090] Browser LOG     [log] > Debug logs enabled for "Hls instance" in hls.js version 1.6.15
+[01:47:55.090] Browser LOG     [log] > stopLoad
+[01:47:55.090] Browser LOG     [log] > loadSource:http://localhost:3000/Videos/master.m3u8
+[01:47:55.090] Browser LOG     [log] > [interstitials]: clear schedule state
+[01:47:55.090] Browser LOG     [log] > [stream-controller]: Trigger BUFFER_RESET
+[01:47:55.090] Browser LOG     [log] > attachMedia
+[01:47:55.090] Browser LOG     [log] > [buffer-controller]: created media source: MediaSource
+[01:47:55.090] Browser LOG     [log] > destroy
+[01:47:55.090] Browser LOG     [log] > detachMedia
+[01:47:55.090] Browser LOG     [log] > [buffer-controller]: media source detaching
+[01:47:55.090] Browser LOG     [log] > [interstitials]: clear schedule state
+[01:47:55.090] Browser LOG     HLS Support: true
+[01:47:55.090] Browser LOG     Video src: /Videos/master.m3u8
+[01:47:55.091] Browser LOG     [log] > Debug logs enabled for "Hls instance" in hls.js version 1.6.15
+[01:47:55.091] Browser LOG     [log] > stopLoad
+[01:47:55.091] Browser LOG     [log] > loadSource:http://localhost:3000/Videos/master.m3u8
+[01:47:55.091] Browser LOG     [log] > [interstitials]: clear schedule state
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Trigger BUFFER_RESET
+[01:47:55.091] Browser LOG     [log] > attachMedia
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: created media source: MediaSource
+[01:47:55.091] Browser LOG     [log] > [level-controller]: manifest loaded, 3 level(s) found, first bitrate: 5000000
+[01:47:55.091] Browser LOG     [log] > [abr]: setting initial bwe to 5000000
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: 1 bufferCodec event(s) expected.
+[01:47:55.091] Browser LOG     HLS Manifest parsed - video ready
+[01:47:55.091] Browser LOG     [log] > auto startLoad with configured startPosition -1
+[01:47:55.091] Browser LOG     [log] > startLoad(-1)
+[01:47:55.091] Browser LOG     [log] > [abr]: picked start tier {"videoRanges":[],"preferHDR":false,"minFramerate":0,"minBitrate":5000000,"minIndex":null}
+[01:47:55.091] Browser INFO    [info] > [abr]: switch candidate:2->2 adjustedbw(5000000)-bitrate=0 ttfb:0.1 avgDuration:0.0 maxFetchDuration:4.0 fetchDuration:0.2 firstSelection:true codecSet: videoRange:SDR hls.loadLevel:-1
+[01:47:55.091] Browser LOG     [log] > [level-controller]: Switching to level 2 (1080p SDR @5000000) from level -1
+[01:47:55.091] Browser LOG     [log] > [level-controller]: Loading level index 2 http://localhost:3000/Videos/playlist_0.m3u8
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: STOPPED->IDLE
+[01:47:55.091] Browser LOG     [log] > [subtitle-stream-controller]: STOPPED->IDLE
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: Media source opened
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: checkPendingTracks (pending: 0 codec events expected: 1) {}
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Level 2 loaded [0,19][part-19--1], cc [0, 0] duration:197.46
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: setting startPosition to 0 by default
+[01:47:55.091] Browser LOG     [log] > [interstitials]: [checkStart] Advancing timeline position to 0
+[01:47:55.091] Browser LOG     [log] > [interstitials]: setSchedulePosition 0, undefined ([primary: 0.00-197.46]) pos: 0
+[01:47:55.091] Browser LOG     [log] > [interstitials]: INTERSTITIALS_BUFFERED_TO_BOUNDARY [primary: 0.00-197.46]
+[01:47:55.091] Browser LOG     [log] > [interstitials]: resuming [primary: 0.00-197.46]
+[01:47:55.091] Browser LOG     [log] > [interstitials]: [attachPrimary] Advancing timeline position to 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: Updating MediaSource duration to 197.460
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 0 of level 2 (frag:[0.000-14.480]) cc: 0 [0-19], target: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [transmuxer-interface]: Starting new transmux session for main sn: 0 level: 2 id: 1
+        discontinuity: true
+        trackSwitch: true
+        contiguous: false
+        accurateTimeOffset: true
+        timeOffset: 0
+        initSegmentChange: true
+[01:47:55.091] Browser LOG     [log] > [mp4-remuxer]: ISGenerated flag reset
+[01:47:55.091] Browser LOG     [log] > [mp4-remuxer]: Reset initPTS: null > null
+[01:47:55.091] Browser LOG     [log] > [mp4-remuxer]: reset next timestamp
+[01:47:55.091] Browser LOG     [log] > manifest codec:undefined, parsed codec:mp4a.40.2, channels:2, rate:48000 (ADTS object type:2 sampling index:3)
+[01:47:55.091] Browser LOG     [log] > [mp4-remuxer]: Found initPTS at playlist time: 0 offset: 1.4186666666666667 (127680/90000) trackId: 1
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Init audio buffer, container:audio/mp4, codecs[selected/level/parsed]=[mp4a.40.2//mp4a.40.2]
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Init video buffer, container:video/mp4, codecs[level/parsed]=[/avc1.64002a]
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: BUFFER_CODECS: "audio,video" (current SB count 0)
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: checkPendingTracks (pending: 2 codec events expected: 1) {"audio":{"listeners":[],"codec":"mp4a.40.2","container":"audio/mp4","levelCodec":"mp4a.40.2","metadata":{"channelCount":2},"id":"main"},"video":{"listeners":[],"codec":"avc1.64002a","container":"video/mp4","metadata":{"width":1920,"height":1080},"id":"main"}}
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: creating sourceBuffer(audio/mp4;codecs=mp4a.40.2) {"listeners":[],"codec":"mp4a.40.2","container":"audio/mp4","levelCodec":"mp4a.40.2","metadata":{"channelCount":2},"id":"main"}
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: creating sourceBuffer(video/mp4;codecs=avc1.64002a) {"listeners":[],"codec":"avc1.64002a","container":"video/mp4","metadata":{"width":1920,"height":1080},"id":"main"}
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: SourceBuffers created. Running queue: 
+video: (SourceBuffer) 
+audio: (SourceBuffer) 
+audiovideo: (none) }
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 0 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 0 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [audio-stream-controller]: InitPTS for cc: 0 found from main: 1.4186666666666667 (127680/90000) trackId: 1
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 0 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 0 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 0 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 0 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 0 of level 2 (frag:[0.000-14.501])
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: Updating audio SourceBuffer timestampOffset to -1.4186666666666667 (sn: 0 cc: 0)
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: Updating video SourceBuffer timestampOffset to -1.4186666666666667 (sn: 0 cc: 0)
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 0 of level 2 (frag:[0.000-14.501] > buffer:[0.021-14.464])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 1 of level 2 (frag:[14.464-22.484]) cc: 0 [0-19], target: 14.464
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 1 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 1 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 1 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 1 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 1 of level 2 (frag:[14.464-22.521])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 1 of level 2 (frag:[14.464-22.521] > buffer:[0.021-22.485])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 2 of level 2 (frag:[22.485-31.865]) cc: 0 [0-19], target: 22.485
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 2 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 2 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 2 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 2 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 2 of level 2 (frag:[22.485-31.901])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 2 of level 2 (frag:[22.485-31.901] > buffer:[0.021-31.872])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 3 of level 2 (frag:[31.872-41.972]) cc: 0 [0-19], target: 31.872
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 3 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 3 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 3 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 3 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 3 of level 2 (frag:[31.872-42.001])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 3 of level 2 (frag:[31.872-42.001] > buffer:[0.021-41.963])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 4 of level 2 (frag:[41.963-50.523]) cc: 0 [0-19], target: 41.963
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 4 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 4 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 4 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 4 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 4 of level 2 (frag:[41.963-50.561])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 4 of level 2 (frag:[41.963-50.561] > buffer:[0.021-50.539])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 5 of level 2 (frag:[50.539-62.279]) cc: 0 [0-19], target: 50.539
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 5 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 5 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 5 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 5 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 5 of level 2 (frag:[50.539-62.301])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 5 of level 2 (frag:[50.539-62.301] > buffer:[0.021-62.272])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 6 of level 2 (frag:[62.272-72.272]) cc: 0 [0-19], target: 62.272
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 6 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 6 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 6 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 6 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 6 of level 2 (frag:[62.272-72.301])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 6 of level 2 (frag:[62.272-72.301] > buffer:[0.021-72.277])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 7 of level 2 (frag:[72.277-84.817]) cc: 0 [0-19], target: 72.277
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 7 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 7 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 7 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 7 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 7 of level 2 (frag:[72.277-84.841])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 7 of level 2 (frag:[72.277-84.841] > buffer:[0.021-84.821])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 8 of level 2 (frag:[84.821-91.961]) cc: 0 [0-19], target: 84.821
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 8 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 8 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 8 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 8 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 8 of level 2 (frag:[84.821-91.981])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 8 of level 2 (frag:[84.821-91.981] > buffer:[0.021-91.947])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loading main sn: 9 of level 2 (frag:[91.947-104.627]) cc: 0 [0-19], target: 91.947
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 9 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 9 of level 2 cc: 0
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Loaded main sn: 9 of level 2
+[01:47:55.091] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 9 of level 2
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Parsed main sn: 9 of level 2 (frag:[91.947-104.661])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: Buffered main sn: 9 of level 2 (frag:[91.947-104.661] > buffer:[0.021-104.640])
+[01:47:55.091] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[01:48:07.673] Browser WARN    Image with src "/project_images/ng5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:07.673] Browser WARN    Image with src "/project_images/ng3.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:07.673] Browser WARN    Image with src "/project_images/ng4.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:07.673] Browser WARN    Image with src "/project_images/ng1.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:07.673] Browser WARN    Image with src "/project_images/ng2.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:07.673] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:48:07.673] Browser LOG     [log] > destroy
+[01:48:07.673] Browser LOG     [log] > detachMedia
+[01:48:07.673] Browser LOG     [log] > [buffer-controller]: media source detaching
+[01:48:07.673] Browser LOG     [log] > [stream-controller]: IDLE->STOPPED
+[01:48:07.673] Browser LOG     [log] > [subtitle-stream-controller]: IDLE->STOPPED
+[01:48:07.673] Browser LOG     [log] > [interstitials]: clear schedule state
+[01:48:07.673] Browser WARN    Image with src "/project_images/DSS1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:48:07.673] Browser WARN    Image with src "/project_images/varuna1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:48:07.673] Browser WARN    Image with src "/project_images/pollutants.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:48:07.673] Browser WARN    Image with src "/project_images/new3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS1.jpeg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/P_1.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/aos.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/sgsir.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/akss.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture6.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture8.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture11.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture12.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture13.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture15.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:09.040] Browser WARN    Image with src "/project_images/DSS/Picture14.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/lab_component.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/sgsir.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/ao.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image7.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image10.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image9.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image3.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image1.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image6.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/amit.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/chandan.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/krishna.JPG" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/SECR/image4.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:20.247] Browser WARN    Image with src "/project_images/lab_component.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:48:27.428] Browser WARN    Image with src "/project_images/varuna1.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:27.428] Browser WARN    Image with src "/P_2.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:27.428] Browser WARN    Image with src "/project_images/HMVB/sbdwidedi.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:27.428] Browser WARN    Image with src "/project_images/HMVB/image2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:27.428] Browser WARN    Image with src "/project_images/HMVB/image3.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:27.428] Browser WARN    Image with src "/project_images/HMVB/image1.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/pollutants1.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/P_3.0.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/EPFA/image2.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/EPFA/image4.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/EPFA/image3.png" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/EPFA/image6.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/EPFA/image5.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/EPFA/image1.jpg" is using quality "100" which is not configured in images.qualities [75]. Please update your config to [100, 75].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.488] Browser WARN    Image with src "/project_images/pollutants1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

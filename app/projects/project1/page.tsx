@@ -23,7 +23,7 @@ const teamMembers = {
       name: "Prof. Shishir Gaur",
       designation: "Assistant Professor, Dept. of Civil Engg., IIT (BHU), Varanasi",
       role: "Coordinator",
-      image: "/project_images/DSS/ssgs.png",
+      image: "/project_images/DSS/sgsir.png",
     },
   ],
   researchTeam: [

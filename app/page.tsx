@@ -319,7 +319,7 @@ export default function HomePage() {
                   <div className="h-40 sm:h-56 overflow-hidden relative flex-shrink-0">
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300 z-10"></div>
                     <Image
-                      src="/persons/Shashir_Gaur_Sir.jpeg"
+                      src="/persons/sgsir.png"
                       alt="Prof. Shishir Gaur"
                       width={250}
                       height={320}
