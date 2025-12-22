@@ -140,7 +140,7 @@ export default function HomePage() {
               className="grid grid-cols-2 gap-3 sm:gap-5"
             >
               <div className="glass-dark rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center text-white">
-                <div className="text-2xl sm:text-4xl font-bold mb-1"><AnimatedCounter target={3} /></div>
+                <div className="text-2xl sm:text-4xl font-bold mb-1"><AnimatedCounter target={4} /></div>
                 <div className="text-xs sm:text-sm text-white/70">Major Projects</div>
               </div>
               <div className="glass-dark rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center text-white">
