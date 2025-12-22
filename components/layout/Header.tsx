@@ -53,7 +53,7 @@ export default function Header() {
                     <div className="text-center flex-1 px-4">
                         <Link href="/" className="inline-block">
                             {/* INCREASED: Font sizes bumped up (2xl -> 3xl -> 4xl) */}
-                            <h1 className="text-4xl lg:text-4xl xl:text-4xl font-bold text-primary tracking-tight hover:text-primary-light transition-colors leading-tight">
+                            <h1 className="text-4xl lg:text-xl xl:text-4xl font-bold text-primary tracking-tight hover:text-primary-light transition-colors leading-tight">
                                 Smart Laboratory on Clean Rivers
                             </h1>
                         </Link>

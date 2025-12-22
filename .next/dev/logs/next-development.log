@@ -8782,3 +8782,187 @@ audiovideo: (none) }
 [06:34:53.414] Browser LOG     [log] > [stream-controller]: Parsed main sn: 9 of level 2 (frag:[91.947-104.661])
 [06:34:53.414] Browser LOG     [log] > [stream-controller]: Buffered main sn: 9 of level 2 (frag:[91.947-104.661] > buffer:[0.021-104.640])
 [06:34:53.414] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:53.297] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:35:53.471] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:35:53.628] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:35:54.214] Browser LOG     HLS Support: true
+[06:35:54.214] Browser LOG     Video src: /Videos/master.m3u8
+[06:35:54.214] Browser LOG     [log] > Debug logs enabled for "Hls instance" in hls.js version 1.6.15
+[06:35:54.214] Browser LOG     [log] > stopLoad
+[06:35:54.214] Browser LOG     [log] > loadSource:http://localhost:3000/Videos/master.m3u8
+[06:35:54.214] Browser LOG     [log] > [interstitials]: clear schedule state
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Trigger BUFFER_RESET
+[06:35:54.214] Browser LOG     [log] > attachMedia
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: created media source: MediaSource
+[06:35:54.214] Browser LOG     [log] > destroy
+[06:35:54.214] Browser LOG     [log] > detachMedia
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: media source detaching
+[06:35:54.214] Browser LOG     [log] > [interstitials]: clear schedule state
+[06:35:54.214] Browser LOG     HLS Support: true
+[06:35:54.214] Browser LOG     Video src: /Videos/master.m3u8
+[06:35:54.214] Browser LOG     [log] > Debug logs enabled for "Hls instance" in hls.js version 1.6.15
+[06:35:54.214] Browser LOG     [log] > stopLoad
+[06:35:54.214] Browser LOG     [log] > loadSource:http://localhost:3000/Videos/master.m3u8
+[06:35:54.214] Browser LOG     [log] > [interstitials]: clear schedule state
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Trigger BUFFER_RESET
+[06:35:54.214] Browser LOG     [log] > attachMedia
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: created media source: MediaSource
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: Media source opened
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: checkPendingTracks (pending: 0 codec events expected: 0) {}
+[06:35:54.214] Browser LOG     [log] > [level-controller]: manifest loaded, 3 level(s) found, first bitrate: 5000000
+[06:35:54.214] Browser LOG     [log] > [abr]: setting initial bwe to 5000000
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: 1 bufferCodec event(s) expected.
+[06:35:54.214] Browser LOG     HLS Manifest parsed - video ready
+[06:35:54.214] Browser LOG     [log] > auto startLoad with configured startPosition -1
+[06:35:54.214] Browser LOG     [log] > startLoad(-1)
+[06:35:54.214] Browser LOG     [log] > [abr]: picked start tier {"videoRanges":[],"preferHDR":false,"minFramerate":0,"minBitrate":5000000,"minIndex":null}
+[06:35:54.214] Browser INFO    [info] > [abr]: switch candidate:2->2 adjustedbw(5000000)-bitrate=0 ttfb:0.1 avgDuration:0.0 maxFetchDuration:4.0 fetchDuration:0.2 firstSelection:true codecSet: videoRange:SDR hls.loadLevel:-1
+[06:35:54.214] Browser LOG     [log] > [level-controller]: Switching to level 2 (1080p SDR @5000000) from level -1
+[06:35:54.214] Browser LOG     [log] > [level-controller]: Loading level index 2 http://localhost:3000/Videos/playlist_0.m3u8
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: STOPPED->IDLE
+[06:35:54.214] Browser LOG     [log] > [subtitle-stream-controller]: STOPPED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Level 2 loaded [0,19][part-19--1], cc [0, 0] duration:197.46
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: setting startPosition to 0 by default
+[06:35:54.214] Browser LOG     [log] > [interstitials]: [checkStart] Advancing timeline position to 0
+[06:35:54.214] Browser LOG     [log] > [interstitials]: setSchedulePosition 0, undefined ([primary: 0.00-197.46]) pos: 0
+[06:35:54.214] Browser LOG     [log] > [interstitials]: INTERSTITIALS_BUFFERED_TO_BOUNDARY [primary: 0.00-197.46]
+[06:35:54.214] Browser LOG     [log] > [interstitials]: resuming [primary: 0.00-197.46]
+[06:35:54.214] Browser LOG     [log] > [interstitials]: [attachPrimary] Advancing timeline position to 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: Updating MediaSource duration to 197.460
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 0 of level 2 (frag:[0.000-14.480]) cc: 0 [0-19], target: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [transmuxer-interface]: Starting new transmux session for main sn: 0 level: 2 id: 1
+        discontinuity: true
+        trackSwitch: true
+        contiguous: false
+        accurateTimeOffset: true
+        timeOffset: 0
+        initSegmentChange: true
+[06:35:54.214] Browser LOG     [log] > [mp4-remuxer]: ISGenerated flag reset
+[06:35:54.214] Browser LOG     [log] > [mp4-remuxer]: Reset initPTS: null > null
+[06:35:54.214] Browser LOG     [log] > [mp4-remuxer]: reset next timestamp
+[06:35:54.214] Browser LOG     [log] > manifest codec:undefined, parsed codec:mp4a.40.2, channels:2, rate:48000 (ADTS object type:2 sampling index:3)
+[06:35:54.214] Browser LOG     [log] > [mp4-remuxer]: Found initPTS at playlist time: 0 offset: 1.4186666666666667 (127680/90000) trackId: 1
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Init audio buffer, container:audio/mp4, codecs[selected/level/parsed]=[mp4a.40.2//mp4a.40.2]
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Init video buffer, container:video/mp4, codecs[level/parsed]=[/avc1.64002a]
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: BUFFER_CODECS: "audio,video" (current SB count 0)
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: checkPendingTracks (pending: 2 codec events expected: 1) {"audio":{"listeners":[],"codec":"mp4a.40.2","container":"audio/mp4","levelCodec":"mp4a.40.2","metadata":{"channelCount":2},"id":"main"},"video":{"listeners":[],"codec":"avc1.64002a","container":"video/mp4","metadata":{"width":1920,"height":1080},"id":"main"}}
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: creating sourceBuffer(audio/mp4;codecs=mp4a.40.2) {"listeners":[],"codec":"mp4a.40.2","container":"audio/mp4","levelCodec":"mp4a.40.2","metadata":{"channelCount":2},"id":"main"}
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: creating sourceBuffer(video/mp4;codecs=avc1.64002a) {"listeners":[],"codec":"avc1.64002a","container":"video/mp4","metadata":{"width":1920,"height":1080},"id":"main"}
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: SourceBuffers created. Running queue: 
+video: (SourceBuffer) 
+audio: (SourceBuffer) 
+audiovideo: (none) }
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 0 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 0 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [audio-stream-controller]: InitPTS for cc: 0 found from main: 1.4186666666666667 (127680/90000) trackId: 1
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 0 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 0 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 0 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 0 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 0 of level 2 (frag:[0.000-14.501])
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: Updating audio SourceBuffer timestampOffset to -1.4186666666666667 (sn: 0 cc: 0)
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: Updating video SourceBuffer timestampOffset to -1.4186666666666667 (sn: 0 cc: 0)
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 0 of level 2 (frag:[0.000-14.501] > buffer:[0.021-14.464])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 1 of level 2 (frag:[14.464-22.484]) cc: 0 [0-19], target: 14.464
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 1 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 1 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 1 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 1 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 1 of level 2 (frag:[14.464-22.521])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 1 of level 2 (frag:[14.464-22.521] > buffer:[0.021-22.485])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 2 of level 2 (frag:[22.485-31.865]) cc: 0 [0-19], target: 22.485
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 2 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 2 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 2 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 2 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 2 of level 2 (frag:[22.485-31.901])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 2 of level 2 (frag:[22.485-31.901] > buffer:[0.021-31.872])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 3 of level 2 (frag:[31.872-41.972]) cc: 0 [0-19], target: 31.872
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 3 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 3 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 3 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 3 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 3 of level 2 (frag:[31.872-42.001])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 3 of level 2 (frag:[31.872-42.001] > buffer:[0.021-41.963])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 4 of level 2 (frag:[41.963-50.523]) cc: 0 [0-19], target: 41.963
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 4 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 4 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 4 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 4 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 4 of level 2 (frag:[41.963-50.561])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 4 of level 2 (frag:[41.963-50.561] > buffer:[0.021-50.539])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 5 of level 2 (frag:[50.539-62.279]) cc: 0 [0-19], target: 50.539
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 5 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 5 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 5 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 5 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 5 of level 2 (frag:[50.539-62.301])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 5 of level 2 (frag:[50.539-62.301] > buffer:[0.021-62.272])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 6 of level 2 (frag:[62.272-72.272]) cc: 0 [0-19], target: 62.272
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 6 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 6 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 6 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 6 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 6 of level 2 (frag:[62.272-72.301])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 6 of level 2 (frag:[62.272-72.301] > buffer:[0.021-72.277])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 7 of level 2 (frag:[72.277-84.817]) cc: 0 [0-19], target: 72.277
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 7 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 7 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 7 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 7 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 7 of level 2 (frag:[72.277-84.841])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 7 of level 2 (frag:[72.277-84.841] > buffer:[0.021-84.821])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 8 of level 2 (frag:[84.821-91.961]) cc: 0 [0-19], target: 84.821
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 8 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 8 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 8 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 8 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 8 of level 2 (frag:[84.821-91.981])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 8 of level 2 (frag:[84.821-91.981] > buffer:[0.021-91.947])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loading main sn: 9 of level 2 (frag:[91.947-104.627]) cc: 0 [0-19], target: 91.947
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: IDLE->FRAG_LOADING
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: FRAG_LOADING->PARSING
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "video" append sn: 9 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [buffer-controller]: queuing "audio" append sn: 9 of level 2 cc: 0
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Loaded main sn: 9 of level 2
+[06:35:54.214] Browser LOG     [log] > [transmuxer.ts]: Flushed main sn: 9 of level 2
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSING->PARSED
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Parsed main sn: 9 of level 2 (frag:[91.947-104.661])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: Buffered main sn: 9 of level 2 (frag:[91.947-104.661] > buffer:[0.021-104.640])
+[06:35:54.214] Browser LOG     [log] > [stream-controller]: PARSED->IDLE
