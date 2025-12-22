@@ -60,7 +60,7 @@ const teamMembers = {
     {
       name: "Shri. Rajat",
       designation: "Junior Research Fellow (JRF)",
-      image: "/project_images/DSS/Picture9.jpg",
+      image: "/project_images/DSS/rajat.jpg",
     },
     {
       name: "Shri Rajkumar Choudhury",

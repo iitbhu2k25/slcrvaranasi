@@ -3,7 +3,12 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import {
+  motion,
+  useMotionTemplate,
+  useMotionValue,
+  animate
+} from 'framer-motion';
 import {
   ArrowRight,
   ChevronRight,
@@ -49,6 +54,170 @@ function AnimatedCounter({ target, suffix = '' }: { target: number; suffix?: str
   }, [target]);
 
   return <>{count}{suffix}</>;
+}
+
+// ===== AIM SPOTLIGHT COMPONENT (ENHANCED) =====
+function AimSpotlightCard() {
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+
+  function handleMouseMove({ currentTarget, clientX, clientY }: React.MouseEvent) {
+    const { left, top } = currentTarget.getBoundingClientRect();
+    mouseX.set(clientX - left);
+    mouseY.set(clientY - top);
+  }
+
+  return (
+    <div
+      className="mt-12 group relative rounded-3xl overflow-hidden"
+      onMouseMove={handleMouseMove}
+    >
+      {/* Animated Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-cyan-500 to-teal-400 opacity-[0.03]" />
+
+      {/* Animated Background Pattern */}
+      <div className="absolute inset-0 overflow-hidden">
+        {/* Floating Circles */}
+        <motion.div
+          animate={{
+            y: [0, -30, 0],
+            x: [0, 20, 0],
+            scale: [1, 1.1, 1]
+          }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute -top-20 -right-20 w-96 h-96 bg-gradient-to-br from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl"
+        />
+        <motion.div
+          animate={{
+            y: [0, 30, 0],
+            x: [0, -20, 0],
+            scale: [1, 1.15, 1]
+          }}
+          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+          className="absolute -bottom-20 -left-20 w-80 h-80 bg-gradient-to-br from-teal-400/20 to-green-400/20 rounded-full blur-3xl"
+        />
+        <motion.div
+          animate={{
+            y: [0, -20, 0],
+            x: [0, 15, 0]
+          }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+          className="absolute top-1/2 left-1/3 w-64 h-64 bg-gradient-to-br from-purple-400/10 to-blue-400/10 rounded-full blur-3xl"
+        />
+
+        {/* Floating Particles */}
+        {[...Array(6)].map((_, i) => (
+          <motion.div
+            key={i}
+            animate={{
+              y: [0, -40, 0],
+              opacity: [0.3, 0.7, 0.3]
+            }}
+            transition={{
+              duration: 4 + i,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: i * 0.5
+            }}
+            className="absolute w-2 h-2 bg-blue-400/40 rounded-full"
+            style={{
+              left: `${15 + i * 15}%`,
+              top: `${20 + (i % 3) * 25}%`
+            }}
+          />
+        ))}
+      </div>
+
+      {/* Glowing Border Effect */}
+      <div className="absolute inset-0 rounded-3xl border-2 border-transparent bg-gradient-to-r from-blue-500/20 via-cyan-500/20 to-teal-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+      {/* Dynamic Mouse Spotlight */}
+      <motion.div
+        className="pointer-events-none absolute -inset-px opacity-0 transition duration-500 group-hover:opacity-100 rounded-3xl"
+        style={{
+          background: useMotionTemplate`
+            radial-gradient(
+              800px circle at ${mouseX}px ${mouseY}px,
+              rgba(14, 165, 233, 0.15),
+              transparent 60%
+            )
+          `,
+        }}
+      />
+
+      {/* Main Card */}
+      <div className="relative z-10 bg-white/80 backdrop-blur-sm rounded-3xl border border-slate-200/50 shadow-lg hover:shadow-2xl transition-all duration-500">
+        {/* Content Container */}
+        <div className="p-8 sm:p-12">
+          <div className="flex flex-col md:flex-row gap-8 items-center">
+
+            {/* Left Side: Title & Badge */}
+            <div className="md:w-1/3 text-center md:text-left">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                whileHover={{ scale: 1.05 }}
+                className="inline-block px-5 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-cyan-500/10 text-blue-600 text-xs font-bold tracking-wider uppercase mb-4 border border-blue-200/50 shadow-sm cursor-pointer"
+              >
+                ✨ Vision & Mission
+              </motion.div>
+              <motion.h3
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="text-4xl md:text-5xl font-black text-slate-800 mb-2 tracking-tight"
+              >
+                Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500 animate-pulse">Aim</span>
+              </motion.h3>
+              <motion.div
+                initial={{ width: 0 }}
+                whileInView={{ width: 80 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+                className="h-1.5 bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500 rounded-full mx-auto md:mx-0 mt-2"
+              />
+            </div>
+
+            {/* Right Side: Text Content */}
+            <div className="md:w-2/3">
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                whileHover={{ scale: 1.01 }}
+                className="bg-gradient-to-r from-blue-50/80 to-cyan-50/80 rounded-2xl p-6 border border-blue-100/50 shadow-inner mb-6"
+              >
+                <p className="text-lg md:text-xl text-slate-700 font-medium leading-relaxed italic">
+                  "To bring global knowledge and solutions on holistic and sustainable rejuvenation of small rivers that are economically, environmentally and socially sustainable in the local context."
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="text-slate-500 text-sm md:text-base leading-relaxed space-y-4"
+              >
+                <p className="flex items-start gap-2">
+                  <span className="text-blue-500 mt-1">●</span>
+                  The government of India is dedicated towards clean and sustainable rivers.
+                  Hon'ble Prime Minister <strong className="text-slate-800">Shri Narendra Modi</strong> conceptualised the visionary
+                  Smart Laboratory for Clean Rivers (SLCR) initiative with his Danish counterpart.
+                </p>
+                <p className="flex items-start gap-2">
+                  <span className="text-cyan-500 mt-1">●</span>
+                  The Smart Laboratory in Varanasi serves as a platform for <span className="font-semibold text-blue-600">knowledge creation, transfer, and co-creation</span>;
+                  It provides global and local sustainable solutions for the rejuvenation of streams/rivers, jointly managed by Indian and Danish partners.
+                </p>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 // ===== OBJECTIVES DATA =====
@@ -494,21 +663,8 @@ export default function HomePage() {
             </motion.div>
           </div>
 
-          {/* Our Aim Section - Below Dignitaries */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mt-8 bg-gradient-to-r from-accent/10 via-white to-primary/10 rounded-3xl p-8 border border-accent/20 hover:shadow-lg transition-shadow"
-          >
-            <h3 className="text-2xl font-bold text-primary mb-6 text-center">Our Aim</h3>
-            <p className="text-gray-600 leading-relaxed text-center max-w-4xl mx-auto">
-              To bring global knowledge and solutions on holistic and sustainable rejuvenation of small rivers that are economically, environmentally and social sustainable in the local context.
-              The government of India is dedicated towards clean and sustainable rivers in India. In order to do so, Hon'ble Prime Minister Shri Narendra Modi conceptualised the visionary Smart Laboratory for Clean Rivers (SLCR) an initiative with his Danish counterpart.
-              The Smart Laboratory in Varanasi is a platform for knowledge creation and exchange, management and transfer/co-creation, training, research, and innovation.
-              It is providing global and local sustainable solutions for the rejuvenation of streams/rivers and is jointly managed by the Indian and Danish sides.
-            </p>
-          </motion.div>
+          {/* ===== OUR AIM SECTION - INTERACTIVE UPGRADE ===== */}
+          <AimSpotlightCard />
         </div>
       </section>
 
@@ -538,38 +694,84 @@ export default function HomePage() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="lg:col-span-3"
+              className="lg:col-span-3 relative"
             >
-              <h2 className="text-2xl font-bold text-primary mb-6">Major Objectives</h2>
-              <p className="text-sm text-gray-600 mb-6">The broad objectives of SLCR initiative</p>
+              {/* Background Effects */}
+              <div className="absolute inset-0 overflow-hidden rounded-2xl pointer-events-none">
+                <div className="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br from-blue-400/10 to-cyan-400/10 rounded-full blur-2xl" />
+                <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-gradient-to-br from-teal-400/10 to-green-400/10 rounded-full blur-2xl" />
+              </div>
 
-              <div className="space-y-4">
+              {/* Header with Gradient */}
+              <div className="relative bg-gradient-to-r from-blue-600 to-cyan-500 rounded-t-2xl p-5 text-white">
+                <div className="flex items-center gap-3">
+                  <motion.div
+                    animate={{ rotate: [0, 10, -10, 0] }}
+                    transition={{ duration: 3, repeat: Infinity }}
+                    className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center"
+                  >
+                    <Target className="w-6 h-6" />
+                  </motion.div>
+                  <div>
+                    <h2 className="text-xl font-bold">Major Objectives</h2>
+                    <p className="text-xs text-white/80">The broad objectives of SLCR initiative</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Objectives Cards */}
+              <div className="relative bg-white/90 backdrop-blur-sm rounded-b-2xl p-4 space-y-3 border border-t-0 border-gray-200 shadow-lg">
                 {objectives.map((obj, index) => (
                   <motion.div
                     key={obj.title}
-                    initial={{ opacity: 0, y: 10 }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
-                    whileHover={{ scale: 1.02, x: 5 }}
-                    className="bg-white rounded-xl p-4 shadow-md border border-gray-100 hover:shadow-lg transition-all cursor-pointer"
+                    whileHover={{ scale: 1.03, x: 8 }}
+                    className="group relative bg-gradient-to-r from-white to-blue-50/50 rounded-xl p-4 shadow-sm border border-gray-100 hover:shadow-xl hover:border-blue-200 transition-all cursor-pointer overflow-hidden"
                   >
-                    <div className="flex items-start gap-3">
-                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <obj.icon className="w-5 h-5 text-primary" />
-                      </div>
+                    {/* Hover Glow Effect */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                    <div className="relative flex items-start gap-3">
+                      <motion.div
+                        whileHover={{ rotate: 360, scale: 1.1 }}
+                        transition={{ duration: 0.5 }}
+                        className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md"
+                      >
+                        <obj.icon className="w-5 h-5 text-white" />
+                      </motion.div>
                       <div>
-                        <h3 className="text-sm font-semibold text-primary mb-1">{obj.title}</h3>
+                        <h3 className="text-sm font-bold text-gray-800 mb-1 group-hover:text-blue-600 transition-colors">{obj.title}</h3>
                         <p className="text-xs text-gray-600 leading-relaxed">{obj.description}</p>
                       </div>
                     </div>
+
+                    {/* Arrow indicator on hover */}
+                    <motion.div
+                      initial={{ opacity: 0, x: -10 }}
+                      whileHover={{ opacity: 1, x: 0 }}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-blue-500"
+                    >
+                      <ChevronRight className="w-5 h-5" />
+                    </motion.div>
                   </motion.div>
                 ))}
-              </div>
 
-              <p className="text-xs text-gray-500 mt-6 leading-relaxed">
-                The main outcomes will be successful demonstration of global solutions in the local context with sound business models.
-              </p>
+                {/* Footer Note */}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  className="mt-4 p-3 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg border border-blue-100"
+                >
+                  <p className="text-xs text-gray-600 leading-relaxed flex items-start gap-2">
+                    <span className="text-blue-500 mt-0.5">💡</span>
+                    The main outcomes will be successful demonstration of global solutions in the local context with sound business models.
+                  </p>
+                </motion.div>
+              </div>
             </motion.div>
           </div>
         </div>
