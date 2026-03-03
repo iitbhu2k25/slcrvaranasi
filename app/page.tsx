@@ -190,7 +190,7 @@ function HeroImageSlider() {
   return (
     <div className="relative group">
       <section
-        className="relative w-full h-550px] sm:h-[700px] md:h-[800px] overflow-hidden bg-slate-900"
+        className="relative w-full h-[550px] sm:h-[700px] md:h-[800px] overflow-hidden bg-slate-900"
         onMouseEnter={() => setIsPaused(false)}
         onMouseLeave={() => setIsPaused(false)}
       >
