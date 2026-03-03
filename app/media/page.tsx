@@ -186,7 +186,7 @@ export default function MediaGalleryPage() {
                     : 'shadow-md hover:shadow-xl'
                 }`}
               >
-                <div className="aspect-[4/1.5] relative">
+                <div className="aspect-[4/2.5] relative">
                   <Image
                     src={section.coverImage}
                     alt={section.title}
