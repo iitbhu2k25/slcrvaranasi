@@ -1,11 +1,11 @@
 'use client';
 
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { Quote, Sparkles, Award, MessageSquare, Waves } from 'lucide-react';
+import { motion, type Variants } from 'framer-motion';
+import { Quote, Award, Waves } from 'lucide-react';
 
 export default function CoordinatorMessagePage() {
-    const containerVariants = {
+    const containerVariants: Variants = {
         hidden: { opacity: 0 },
         visible: {
             opacity: 1,
@@ -16,7 +16,7 @@ export default function CoordinatorMessagePage() {
         },
     };
 
-    const itemVariants = {
+    const itemVariants: Variants = {
         hidden: { opacity: 0, y: 20 },
         visible: {
             opacity: 1,
