@@ -9,7 +9,7 @@ const principalInvestigators = [
         name: 'Prof. Anurag Ohri',
         title: 'Department of Civil Engineering, IIT(BHU)',
         role: 'Principal Investigator',
-        image: '/people/DSS/aos1.jpg',
+        image: '/people/DSS/aos3.jpg',
         link: 'https://www.iitbhu.ac.in/dept/civ/people/aohriciv'
     },
     {

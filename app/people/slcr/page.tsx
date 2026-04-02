@@ -9,15 +9,22 @@ const principalInvestigators = [
         name: 'Prof. Shishir Gaur',
         title: 'Principal Investigator',
         department: 'Department of Civil Engineering, IIT(BHU)',
-        image: '/people/slcr/sgsir1.png',
+        image: '/people/slcr/sgsir2.png',
         profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/shishirgciv', // Added link
     },
     {
         name: 'Prof. Anurag Ohri',
         title: 'Co-Principal Investigator',
         department: 'Department of Civil Engineering, IIT(BHU)',
-        image: '/people/slcr/aos1.jpg',
+        image: '/people/slcr/aos3.jpg',
         profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/aohriciv', // Added link
+    },
+    {
+        name: 'Prof. Harsimran Kaur',
+        title: 'Co-Principal Investigator',
+        department: 'Department of Architecture, Planning and Design, IIT(BHU)',
+        image: '/people/slcr/hk.jpg',
+        profileUrl: 'https://iitbhu.ac.in/dept/apd/people/harsimranapd', // Added link
     },
 ];
 
@@ -103,7 +110,7 @@ export default function SLCRPeoplePage() {
                     <h2 className="text-2xl font-bold text-[#0a3d62] text-center mb-10 border-b border-gray-200 pb-4 inline-block w-full max-w-md mx-auto">
                         Principal Investigators
                     </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 justify-items-center max-w-4xl mx-auto">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center max-w-4xl mx-auto">
                         {principalInvestigators.map((person, index) => (
                             <motion.div
                                 key={person.name}
