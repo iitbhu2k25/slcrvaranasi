@@ -13,19 +13,20 @@ const principalInvestigators = [
         profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/shishirgciv', // Added link
     },
     {
+        name: 'Prof. Harsimran Kaur',
+        title: 'Principal Investigator',
+        department: 'Department of Architecture, Planning and Design, IIT(BHU)',
+        image: '/people/slcr/hk.jpg',
+        profileUrl: 'https://iitbhu.ac.in/dept/apd/people/harsimranapd', // Added link
+    },
+    {
         name: 'Prof. Anurag Ohri',
         title: 'Co-Principal Investigator',
         department: 'Department of Civil Engineering, IIT(BHU)',
         image: '/people/slcr/aos3.jpg',
         profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/aohriciv', // Added link
     },
-    {
-        name: 'Prof. Harsimran Kaur',
-        title: 'Co-Principal Investigator',
-        department: 'Department of Architecture, Planning and Design, IIT(BHU)',
-        image: '/people/slcr/hk.jpg',
-        profileUrl: 'https://iitbhu.ac.in/dept/apd/people/harsimranapd', // Added link
-    },
+    
 ];
 
 // Research and Development Team

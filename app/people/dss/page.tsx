@@ -98,6 +98,8 @@ const researchTeam = [
 
 const adminTeam = [
     { name: 'Mr. Vivek Kumar Sen', title: 'Project Assistant', image: '/people/DSS/Picture14.png' },
+    { name: 'Mr. Bhuval', title: 'Administrative Assistant', image: '/people/DSS/bhuval.jpeg' },
+
 ];
 
 export default function DSSPeoplePage() {
