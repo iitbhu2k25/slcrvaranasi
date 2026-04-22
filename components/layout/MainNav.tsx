@@ -23,7 +23,6 @@ const navItems: NavItem[] = [
             { label: 'Objectives', href: '/about/objectives' },
             // { label: 'Core Values', href: '/about/core-values' },
             { label: 'Partner Institutes', href: '/about/partner' },
-            { label: "Coordinator's Message", href: '/about/coordinator' },
         ],
     },
     { label: 'Activities', href: '/activities' },

@@ -11,7 +11,7 @@ const gallerySections = [
     title: 'Events',
     description: 'Workshops, conferences and activities',
     images: [
-      '/gallery/Events/pic2.jpg',
+      // '/gallery/Events/pic2.jpg',
       '/gallery/Events/pic10.jpeg',
       '/gallery/Events/pic11.jpeg',
       '/gallery/Events/pic1.jpg',
@@ -26,7 +26,7 @@ const gallerySections = [
       '/gallery/Events/pic8.jpg',
       '/gallery/Events/pic9.jpg',
     ],
-    coverImage: '/gallery/Events/pic2.jpg',
+    coverImage: '/gallery/Events/pic10.jpeg',
   },
   {
     id: 'site-visits',
@@ -49,7 +49,7 @@ const gallerySections = [
     description: 'Distinguished visitors and collaborators',
     images: [
       '/gallery/visitors/Picture5.jpg',
-      '/gallery/visitors/Mr_Dheeraj_Joshi_Director_NMCG.png',
+      // '/gallery/visitors/Mr_Dheeraj_Joshi_Director_NMCG.png',
       '/gallery/visitors/pic1.png',
       '/gallery/visitors/ISRO_MEMBERS.png', 
       '/gallery/Events/pic7.jpg',

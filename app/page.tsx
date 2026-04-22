@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useCallback } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import {
   motion,
@@ -11,7 +10,6 @@ import {
   AnimatePresence
 } from 'framer-motion';
 import {
-  ArrowRight,
   ChevronRight,
   ChevronLeft,
   Users,
@@ -20,7 +18,6 @@ import {
   Building2,
   Newspaper,
   Megaphone,
-  Quote,
   MessageSquareQuote,
   Sparkles
 } from 'lucide-react';
@@ -38,11 +35,11 @@ const VideoSection = dynamic(() => import('@/utils/HlsPlayer'), {
 // ===== SLIDER IMAGES =====
 const sliderImages = [
   { src: '/home/pm.jpg', alt: 'Prime Minister Visit' },
-    { src: '/home/p1.jpg', alt: 'Prime Minister Visit' },
+    // { src: '/home/p1.jpg', alt: 'Prime Minister Visit' },
  { src: '/home/2.png', alt: 'Namami Gange Initiative' },
-  { src: '/home/4.png', alt: 'Namami Gange Initiative' },
+  // { src: '/home/4.png', alt: 'Namami Gange Initiative' },
   // { src: '/home/3.png', alt: 'Namami Gange Initiative' },
-  { src: '/home/pic2.jpg', alt: 'Namami Gange Initiative' },
+  // { src: '/home/pic2.jpg', alt: 'Namami Gange Initiative' },
    { src: '/home/varuna3.png', alt: 'Namami Gange Initiative' },
   { src: '/home/varuna2.jpg', alt: 'Namami Gange Initiative' },
   // { src: '/home/5.jpg', alt: 'Namami Gange Initiative' },
@@ -359,42 +356,17 @@ export default function HomePage() {
                   <p className="text-blue-200 text-sm relative z-10">Leadership Insight</p>
                 </div>
 
-                <div className="p-6 sm:p-8 flex flex-col flex-grow relative">
-                  {/* Coordinator Image - SQUARE FORMAT */}
-                  <div className="flex justify-center mb-6 -mt-12 relative z-20">
-                    <div className="w-32 h-32 rounded-2xl border-4 border-white shadow-lg overflow-hidden bg-slate-100">
-                      <Image
-                        src="/persons/sgsir1.png"
-                        alt="Prof. Shishir Gaur"
-                        width={128}
-                        height={128}
-                        className="w-full h-full object-cover"
-                        unoptimized={true}
-                      />
-                    </div>
-                  </div>
-
-                  <div className="text-center mb-6">
-                    <h4 className="text-xl font-bold text-slate-800">Prof. Shishir Gaur</h4>
-                    <p className="text-sm font-medium text-cyan-600">Coordinator, SLCR</p>
-                    <p className="text-xs text-slate-500">Dept. of Civil Engg., IIT (BHU)</p>
-                  </div>
-
-                  <div className="relative flex-grow">
-                    <Quote className="w-8 h-8 text-blue-100 absolute -top-4 -left-2" />
-                    <p className="text-slate-600 text-sm  leading-relaxed text-justify px-2 relative z-10">
-                      "As a coordinator, I have the privilege to lead the Smart Laboratory on Clean Rivers (SLCR)... SLCR represents a strategic platform for integrating global knowledge, advanced technologies, and ground implemented solutions 
-                      to address persistent challenges related to river water quality."    
-                      <Link href="/about/coordinator">
-                      <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="inline-flex items-center gap-1 mt-3 text-xs font-medium text-cyan-600 hover:text-cyan-700 hover:underline transition-colors"
-                      >
-                        See More
-                        <ArrowRight className="w-3 h-3" />
-                      </motion.button>
-                    </Link>
+                <div className="p-6 sm:p-8 flex flex-col flex-grow relative overflow-y-auto">
+                  <div className="relative z-10 space-y-4 text-sm text-slate-700 leading-relaxed text-justify">
+                  
+                    <p>
+                      SLCR operates as a <strong className="text-slate-900">living laboratory</strong> for testing and validating innovative management and intervention approaches for small rivers and tributaries, which play a critical role in basin-scale river health. The <span className="font-semibold text-cyan-600 bg-cyan-50 px-1 rounded">Varuna River Basin</span> is the pilot site, enabling real-world application of integrated planning, monitoring, and management approaches.
+                    </p>
+                    <p>
+                      The initiative brings together government agencies, academic institutions, technology providers, and citizens through a collaborative knowledge, ensuring solutions are practical, scalable, and sustainable.
+                    </p>
+                    <p>
+                      Through collaboration with Danish partners, SLCR is developing decision-support systems, hydrogeological assessment tools, and pollutant monitoring frameworks with potential for replication across Indian river systems and international river networks.
                     </p>
                   </div>
 
@@ -405,7 +377,6 @@ export default function HomePage() {
                     <p className="text-xs text-slate-500 mt-1">
                       (Waters are indeed the source of well-being)
                     </p>
-                    
                   </div>
                 </div>
               </div>
