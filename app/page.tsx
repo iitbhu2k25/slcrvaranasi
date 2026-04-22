@@ -372,7 +372,7 @@ export default function HomePage() {
 
                   <div className="mt-6 pt-6 border-t border-slate-100 text-center">
                     <p className="text-lg font-bold text-[#0a3d62] font-serif">
-                      " आपो हि ष्ठा मयोभुवः "
+                      " आपो हि ष्ठा मयोभुवः  "
                     </p>
                     <p className="text-xs text-slate-500 mt-1">
                       (Waters are indeed the source of well-being)
