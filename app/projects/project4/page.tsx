@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from 'framer-motion';
-import { Building2, Users, Globe, Lightbulb, Target, BookOpen, Handshake } from 'lucide-react';
+import { Building2, Globe, Lightbulb, Target, BookOpen, Handshake } from 'lucide-react';
 
 export default function SECRProject() {
     return (
@@ -35,7 +35,7 @@ export default function SECRProject() {
                         className="mb-4"
                     >
                         <span className="inline-block text-teal-300 text-lg sm:text-xl font-medium tracking-widest uppercase">
-                            Project : SLCR Secretariat
+                            Project SLCR Secretariat and Holistic River management
                         </span>
                     </motion.div>
 
@@ -46,7 +46,7 @@ export default function SECRProject() {
                         className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-4 tracking-tight"
                     >
                         <span className="bg-gradient-to-r from-white via-green-100 to-teal-300 bg-clip-text text-transparent drop-shadow-2xl">
-                            SLCR Secretariat
+                            Establishment of Secretariat and Holistic River management
                         </span>
                     </motion.h1>
 
@@ -250,11 +250,82 @@ export default function SECRProject() {
                                         To Support NMCG in achieving its vision by focusing on small rivers & provide preliminary solution for the local problems and provide inputs for Urban River Management Plans and other interventions being carried out by other agencies.
                                     </span>
                                 </li>
+                                <li className="flex gap-4">
+                                    <span className="font-bold text-primary min-w-[24px]"></span>
+                                    <span>
+                                        Holistic river management through rejuvenation and protection of critical sites across the Varuna watershed, including river origins, confluence points, urban and non-urban stretches, and the broader watershed area.
+                                    </span>
+                                </li>
                             </ul>
                         </div>
                     </motion.div>
                 </div>
             </section>
+
+            {/* Holistic River Management Section */}
+            <section className="py-12 sm:py-16 px-4 bg-white">
+                <div className="max-w-6xl mx-auto">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                    >
+                        <div className="flex items-start gap-4 mb-8 justify-center">
+                            
+                            <div>
+                                <h2 className="text-3xl sm:text-4xl  font-bold text-primary">Holistic River Management</h2>
+                                
+                            </div>
+                        </div>
+
+                       
+                        <div className="space-y-8">
+                            <div className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden">
+                                <div className="relative aspect-[16/9]">
+                                    <Image
+                                        src="/project_images/SECR/holistic_1.webp"
+                                        alt="Holistic river management map highlighting critical watershed sites"
+                                        fill
+                                        quality={100}
+                                        className="object-contain bg-white"
+                                    />
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden">
+                                <div className="relative aspect-[16/9]">
+                                    <Image
+                                        src="/project_images/SECR/holistic_2.webp"
+                                        alt="Holistic river management planning visual for Varuna watershed"
+                                        fill
+                                        quality={100}
+                                        className="object-contain bg-white"
+                                    />
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden">
+                                <div className="relative aspect-[16/9]">
+                                    <Image
+                                        src="/project_images/SECR/holistic_3.webp"
+                                        alt="Critical sites identified under holistic river management"
+                                        fill
+                                        quality={100}
+                                        className="object-contain bg-white"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </motion.div>
+                </div>
+            </section>
+
+
+
+
+
+
+
         </main>
     );
 }
