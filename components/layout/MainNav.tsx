@@ -31,7 +31,7 @@ const navItems: NavItem[] = [
         href: '/projects',
         children: [
             { label: 'Overview', href: '/projects' },
-            { label: 'SLCR Secretariat', href: '/projects/project4' },
+            { label: 'SLCR Secretariat and Holistic River', href: '/projects/project4' },
             { label: 'DSS', href: '/projects/project1' },
             { label: 'HMVB', href: '/projects/project2' },
             { label: 'EPFA', href: '/projects/project3' },
