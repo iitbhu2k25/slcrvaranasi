@@ -16,7 +16,7 @@ const principalInvestigators = [
         name: 'Prof. Harsimran Kaur',
         title: 'Principal Investigator',
         department: 'Department of Architecture, Planning and Design, IIT(BHU)',
-        image: '/people/slcr/hk.jpg',
+        image: '/people/slcr/hks.png',
         profileUrl: 'https://iitbhu.ac.in/dept/apd/people/harsimranapd', // Added link
     },
     {
