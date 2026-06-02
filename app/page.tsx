@@ -35,15 +35,17 @@ const VideoSection = dynamic(() => import('@/utils/HlsPlayer'), {
 // ===== SLIDER IMAGES =====
 const sliderImages = [
   { src: '/home/pm.jpg', alt: 'Prime Minister Visit' },
-    // { src: '/home/p1.jpg', alt: 'Prime Minister Visit' },
- { src: '/home/2.png', alt: 'Namami Gange Initiative' },
-  // { src: '/home/4.png', alt: 'Namami Gange Initiative' },
-  // { src: '/home/3.png', alt: 'Namami Gange Initiative' },
-  // { src: '/home/pic2.jpg', alt: 'Namami Gange Initiative' },
+  { src: '/home/front3.jpeg', alt: 'Prime Minister Visit' },
+  { src: '/home/2.png', alt: 'Namami Gange Initiative' },
+  { src: '/home/front1.jpg', alt: 'Prime Minister Visit' },
+  { src: '/home/front4.jpeg', alt: 'Prime Minister Visit' },
+  { src: '/home/front2.jpeg', alt: 'Prime Minister Visit' },
+  { src: '/home/pic2.jpg', alt: 'Prime Minister Visit' },
+ 
    { src: '/home/varuna3.png', alt: 'Namami Gange Initiative' },
-  { src: '/home/varuna2.jpg', alt: 'Namami Gange Initiative' },
-  // { src: '/home/5.jpg', alt: 'Namami Gange Initiative' },
-  // { src: '/home/6.png', alt: 'Namami Gange Initiative' },
+   { src: '/home/varuna7_new.png', alt: 'Namami Gange Initiative' },
+   { src: '/home/5.jpg', alt: 'Namami Gange Initiative' },
+    { src: '/home/6.png', alt: 'Namami Gange Initiative' },
   
 ];
 
