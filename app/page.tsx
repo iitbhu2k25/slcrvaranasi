@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import {
@@ -54,6 +54,7 @@ const sliderImages = [
 // ===== NEWS TICKER DATA =====
 const newsItems = [
    { date: "5 | June 2026", title: "World Environment Day 2026 celebration at SLCR Lab , IIT (BHU) , Varanasi" },
+   { date: "24 | May 2026", title: "Visit of Shri V L kantha Rao, Hon'ble Secretary , Ministry of Jal Shakti , Government of India at SLCR Lab , IIT (BHU) , Varanasi" },
   { date: "21 | Jan 2026", title: "Meeting with CDO Bhadohi for Administrative Support toward Varuna River Pilot Technology Demonstrations" },
   { date: "20 | Jan 2026", title: "Strategic Consultation with Prayagraj Officials for Scientific Rejuvenation of Varuna River Stretch" },
   { date: "17 | Jan 2026", title: "Interactive Session with VECC–DAE under \"Namami Gange\" for Holistic River Rejuvenation" },
@@ -98,8 +99,30 @@ const objectives = [
   },
 ];
 
-// ===== NEWS SECTION (ORIGINAL MARQUEE ANIMATION) =====
+// ===== NEWS SECTION (AUTO-SCROLL + MANUAL SCROLL ON HOVER) =====
 function NewsSection() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const animRef = useRef<number | null>(null);
+  const isHovered = useRef(false);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const step = () => {
+      if (!isHovered.current && el) {
+        el.scrollTop += 1;
+        if (el.scrollTop >= el.scrollHeight / 2) {
+          el.scrollTop = 0;
+        }
+      }
+      animRef.current = requestAnimationFrame(step);
+    };
+
+    animRef.current = requestAnimationFrame(step);
+    return () => { if (animRef.current) cancelAnimationFrame(animRef.current); };
+  }, []);
+
   return (
     <div className="bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden h-full flex flex-col">
       {/* Header */}
@@ -109,39 +132,21 @@ function NewsSection() {
       </div>
 
       {/* Scrolling Content */}
-      <div className="flex-1 p-3 relative overflow-hidden bg-slate-50/50 min-h-[300px]">
-        <style>{`
-          @keyframes marquee-vertical {
-            0% {
-              transform: translateY(0);
-            }
-            100% {
-              transform: translateY(-50%);
-            }
-          }
-          .animate-marquee-vertical {
-            animation: marquee-vertical 40s linear infinite;
-          }
-          .animate-marquee-vertical:hover {
-            animation-play-state: paused;
-          }
-        `}</style>
-        <div className="absolute inset-0 overflow-hidden py-4">
-          {/* Marquee Animation */}
-          <div className="animate-marquee-vertical space-y-3 px-1">
-            {/* Duplicate list for seamless loop */}
-            {[...newsItems, ...newsItems].map((item, i) => (
-              <div key={i} className="flex flex-col gap-2 p-3 bg-white rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow group cursor-pointer">
-                <div className="flex items-start gap-2">
-                  <div className="flex flex-col gap-1">
-                    <span className="text-[10px] font-semibold text-yellow-600 bg-yellow-50 px-2 py-0.5 rounded-full w-fit">{item.date}</span>
-                    <p className="text-xs text-slate-700 font-medium leading-relaxed group-hover:text-teal-700 transition-colors">{item.title}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
+      <div
+        ref={scrollRef}
+        className="overflow-y-auto bg-slate-50/50 p-3 space-y-3"
+        onMouseEnter={() => { isHovered.current = true; }}
+        onMouseLeave={() => { isHovered.current = false; }}
+        style={{ scrollbarWidth: 'thin', height: '480px' }}
+      >
+        {[...newsItems, ...newsItems].map((item, i) => (
+          <div key={i} className="flex flex-col gap-2 p-3 bg-white rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow group cursor-pointer">
+            <div className="flex flex-col gap-1">
+              <span className="text-[10px] font-semibold text-yellow-600 bg-yellow-50 px-2 py-0.5 rounded-full w-fit">{item.date}</span>
+              <p className="text-xs text-slate-700 font-medium leading-relaxed group-hover:text-teal-700 transition-colors">{item.title}</p>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
   );
