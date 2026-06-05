@@ -193,8 +193,6 @@ function HeroImageSlider() {
     <div className="relative group">
       <section
         className="relative w-full h-[550px] sm:h-[700px] md:h-[800px] overflow-hidden bg-slate-900"
-        onMouseEnter={() => setIsPaused(false)}
-        onMouseLeave={() => setIsPaused(false)}
       >
         <div className="absolute inset-0 flex items-center justify-center">
           {/* LEFT PREVIEW */}
@@ -218,7 +216,11 @@ function HeroImageSlider() {
           </div>
 
           {/* CENTER MAIN IMAGE */}
-          <div className="relative w-full md:w-[70%] h-full mx-auto z-20 overflow-hidden">
+          <div
+            className="relative w-full md:w-[70%] h-full mx-auto z-20 overflow-hidden"
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+          >
             <AnimatePresence initial={false} custom={direction}>
               <motion.div
                 key={page}
