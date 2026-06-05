@@ -41,6 +41,8 @@ const sliderImages = [
   { src: '/home/front4.jpeg', alt: 'Prime Minister Visit' },
   { src: '/home/front2.jpeg', alt: 'Prime Minister Visit' },
   { src: '/home/pic2.jpg', alt: 'Prime Minister Visit' },
+  { src: '/home/envday2.jpg', alt: 'Prime Minister Visit' },
+  { src: '/home/envday4.jpg', alt: 'Prime Minister Visit' },
  
    { src: '/home/varuna3.png', alt: 'Namami Gange Initiative' },
    { src: '/home/varuna7_new.png', alt: 'Namami Gange Initiative' },
@@ -51,6 +53,7 @@ const sliderImages = [
 
 // ===== NEWS TICKER DATA =====
 const newsItems = [
+   { date: "5 | June 2026", title: "World Environment Day 2026 celebration at SLCR Lab , IIT (BHU) , Varanasi" },
   { date: "21 | Jan 2026", title: "Meeting with CDO Bhadohi for Administrative Support toward Varuna River Pilot Technology Demonstrations" },
   { date: "20 | Jan 2026", title: "Strategic Consultation with Prayagraj Officials for Scientific Rejuvenation of Varuna River Stretch" },
   { date: "17 | Jan 2026", title: "Interactive Session with VECC–DAE under \"Namami Gange\" for Holistic River Rejuvenation" },
