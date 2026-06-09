@@ -70,6 +70,9 @@ const gallerySections = [
       '/gallery/visitors/pic1.png',
       '/gallery/visitors/ISRO_MEMBERS.png', 
       '/gallery/Events/pic7.jpg',
+      '/gallery/visitors/gsfc1.jpeg',
+      '/gallery/visitors/gsfc2.jpeg',
+      '/gallery/visitors/gsfc3.jpeg',
       
     ],
     coverImage: '/gallery/visitors/Mr_Dheeraj_Joshi_Director_NMCG.png',

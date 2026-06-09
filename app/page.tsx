@@ -34,7 +34,9 @@ const VideoSection = dynamic(() => import('@/utils/HlsPlayer'), {
 
 // ===== SLIDER IMAGES =====
 const sliderImages = [
+  { src: '/home/pm_new.png', alt: 'Prime Minister Visit' },
   { src: '/home/pm.jpg', alt: 'Prime Minister Visit' },
+  { src: '/home/p3.jpg', alt: 'Prime Minister Visit' },
   { src: '/home/front3.jpeg', alt: 'Prime Minister Visit' },
   { src: '/home/2.png', alt: 'Namami Gange Initiative' },
   { src: '/home/front1.jpg', alt: 'Prime Minister Visit' },
@@ -53,7 +55,9 @@ const sliderImages = [
 
 // ===== NEWS TICKER DATA =====
 const newsItems = [
+   { date: "8 | June 2026", title: "Educational visit of students from GSFC University, Vadodara to the SLCR Lab , IIT (BHU) , Varanasi" },
    { date: "5 | June 2026", title: "World Environment Day 2026 celebration at SLCR Lab , IIT (BHU) , Varanasi" },
+   { date: "29 | May 2026", title: "Visit of Mr. Rasmus Abildgaard Kristensen, Hon'ble Ambassador of Denmark to India, at the SLCR Lab , IIT (BHU) , Varanasi" },
    { date: "24 | May 2026", title: "Visit of Shri V L kantha Rao, Hon'ble Secretary , Ministry of Jal Shakti , Government of India at SLCR Lab , IIT (BHU) , Varanasi" },
   { date: "21 | Jan 2026", title: "Meeting with CDO Bhadohi for Administrative Support toward Varuna River Pilot Technology Demonstrations" },
   { date: "20 | Jan 2026", title: "Strategic Consultation with Prayagraj Officials for Scientific Rejuvenation of Varuna River Stretch" },
