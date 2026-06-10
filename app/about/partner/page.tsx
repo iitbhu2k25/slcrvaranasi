@@ -57,24 +57,24 @@ const internationalInstitutes = [
     logo: '/about/Picture10.png',
     link: 'https://www.au.dk'
   },
-  {
-    name: 'Université de Lyon',
-    description: 'Université de Lyon supports SLCR through collaborative research in environmental sciences, urban ecology, and sustainable water management practices.',
-    logo: '/about/Picture11.png',
-    link: 'https://www.universite-lyon.fr'
-  },
+  // {
+  //   name: 'Université de Lyon',
+  //   description: 'Université de Lyon supports SLCR through collaborative research in environmental sciences, urban ecology, and sustainable water management practices.',
+  //   logo: '/about/Picture11.png',
+  //   link: 'https://www.universite-lyon.fr'
+  // },
   {
     name: 'University of Copenhagen',
     description: 'The University of Copenhagen brings strong research capabilities in hydrology, climate science, and ecosystem-based water management to SLCR initiatives.',
     logo: '/about/Picture5.png',
     link: 'https://www.ku.dk'
   },
-  {
-    name: 'VetAgro Sup',
-    description: 'VetAgro Sup contributes expertise in environmental health, water quality, and ecosystem interactions relevant to riverine and watershed sustainability.',
-    logo: '/about/Picture6.svg',
-    link: 'https://www.vetagro-sup.fr'
-  },
+  // {
+  //   name: 'VetAgro Sup',
+  //   description: 'VetAgro Sup contributes expertise in environmental health, water quality, and ecosystem interactions relevant to riverine and watershed sustainability.',
+  //   logo: '/about/Picture6.svg',
+  //   link: 'https://www.vetagro-sup.fr'
+  // },
   {
     name: 'Hokkaido University',
     description: 'Hokkaido University supports SLCR with advanced research in cold-region hydrology, river processes, and climate-resilient water systems.',
