@@ -39,7 +39,7 @@ const coPrincipalInvestigators = [
     },
     {
         name: 'Prof. Medha Jha',
-        title: 'Department of Chemical Engineering, IIT(BHU)',
+        title: 'Department of Civil Engineering, IIT(BHU)',
         role: 'Co-Principal Investigator',
         image: '/people/DSS/Medha_Jha_Mam.webp',
         link: 'https://www.iitbhu.ac.in/dept/civ/people/mjhaciv'
