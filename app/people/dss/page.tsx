@@ -79,6 +79,13 @@ const coPrincipalInvestigators = [
         image: '/people/DSS/Ram_Avtar_Sir.webp',
         link: 'https://ramenvjnu.wixsite.com/mysite'
     },
+     {
+        name: 'Prof. Rajhans Negi',
+        title: 'Department of Civil Engineering, IIT(BHU)',
+        role: 'Co-Principal Investigator',
+        image: '/people/DSS/rajnegi.webp',
+        link: 'https://www.iitbhu.ac.in/dept/civ/people/rajhansciv'
+    },
 ];
 
 const researchTeam = [
@@ -98,7 +105,7 @@ const researchTeam = [
 
 const adminTeam = [
     { name: 'Mr. Vivek Kumar Sen', title: 'Project Assistant', image: '/people/DSS/Picture14.png' },
-    { name: 'Mr. Bhuval', title: 'Administrative Assistant', image: '/people/DSS/bhuvals.jpeg' },
+    { name: 'Mr. Bhual', title: 'Administrative Assistant', image: '/people/DSS/bhuvals.jpeg' },
 
 ];
 

@@ -13,6 +13,13 @@ const principalInvestigators = [
         image: '/people/HMVB/sbdwidedi.jpg',
         profileUrl: 'https://iitbhu.ac.in/dept/civ/people/sbdciv',
     },
+    {
+        name: 'Prof. Rahul Singh',
+        title: 'Co-Principal Investigator',
+        department: 'Department of Civil Engineering, IIT(BHU)',
+        image: '/people/HMVB/rahul.webp',
+        profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/rahulciv',
+    },
 ];
 
 // Research and Development Team
@@ -58,7 +65,7 @@ export default function HMVBPeoplePage() {
                     <h2 className="text-2xl font-bold text-[#0a3d62] text-center mb-10 border-b border-gray-200 pb-4 inline-block w-full max-w-md mx-auto">
                         Principal Investigator
                     </h2>
-                    <div className="flex justify-center">
+                    <div className="flex flex-wrap justify-center gap-10">
                         {principalInvestigators.map((person, index) => (
                             <Link 
                                 href={person.profileUrl} 

@@ -26,6 +26,13 @@ const principalInvestigators = [
         image: '/people/slcr/aos3.jpg',
         profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/aohriciv', // Added link
     },
+    {
+        name: 'Prof. Anshuman Satpathy',
+        title: 'Co-Principal Investigator',
+        department: 'Department of Civil Engineering, IIT(BHU)',
+        image: '/people/slcr/Anshuman.webp',
+        profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/asatpathyciv', // Added link
+    },
     
 ];
 
@@ -111,20 +118,20 @@ export default function SLCRPeoplePage() {
                     <h2 className="text-2xl font-bold text-[#0a3d62] text-center mb-10 border-b border-gray-200 pb-4 inline-block w-full max-w-md mx-auto">
                         Principal Investigators
                     </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center max-w-4xl mx-auto">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center max-w-6xl mx-auto">
                         {principalInvestigators.map((person, index) => (
                             <motion.div
                                 key={person.name}
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: index * 0.1 }}
-                                className="w-full max-w-[300px]"
+                                className="w-full max-w-[300px] h-full"
                             >
-                                <a 
-                                    href={person.profileUrl} 
-                                    target="_blank" 
+                                <a
+                                    href={person.profileUrl}
+                                    target="_blank"
                                     rel="noopener noreferrer"
-                                    className="block bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 group cursor-pointer"
+                                    className="flex flex-col h-full bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 group cursor-pointer"
                                 >
                                     <div className="h-60 w-full relative overflow-hidden bg-gray-100">
                                         <Image
@@ -134,15 +141,15 @@ export default function SLCRPeoplePage() {
                                             className="object-cover object-top transition-transform duration-500 group-hover:scale-110"
                                         />
                                     </div>
-                                    <div className="p-6 text-center">
-                                        <h3 className="text-xl font-bold text-[#0a3d62] mb-1 group-hover:text-cyan-700 transition-colors">
+                                    <div className="px-6 py-4 text-center flex flex-col flex-1">
+                                        <h3 className="text-lg font-bold text-[#0a3d62] mb-0.5 group-hover:text-cyan-700 transition-colors">
                                             {person.name}
                                         </h3>
-                                        <p className="text-sm font-bold text-cyan-700 mb-2">{person.title}</p>
-                                        <p className="text-xs text-gray-500 font-medium leading-relaxed">
+                                        <p className="text-sm font-bold text-cyan-700 mb-1">{person.title}</p>
+                                        <p className="text-xs text-gray-500 font-medium leading-snug">
                                             {person.department}
                                         </p>
-                                        <span className="text-[10px] uppercase tracking-wider text-gray-400 mt-4 block group-hover:text-cyan-600 font-bold transition-colors">
+                                        <span className="text-[10px] uppercase tracking-wider text-gray-400 mt-2 block group-hover:text-cyan-600 font-bold transition-colors mt-auto">
                                             View Faculty Profile →
                                         </span>
                                     </div>
