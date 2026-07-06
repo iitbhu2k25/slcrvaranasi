@@ -167,7 +167,7 @@ export default function OpportunitiesPage() {
           </div>
         </section>
 
-        {/* ─── SECTION: PREVIOUS OPPORTUNITIES ─── */}
+        {/* ─── SECTION: PREVIOUS OPPORTUNITIES ───
         <section>
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-3">
             <div className="flex items-center gap-2">
@@ -177,7 +177,7 @@ export default function OpportunitiesPage() {
               </h2>
             </div>
 
-            {/* Search box */}
+            {/* Search box }
             <div className="relative">
               <Search size={13} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
@@ -207,6 +207,7 @@ export default function OpportunitiesPage() {
             )}
           </div>
         </section>
+        */}
 
       </div>
     </main>

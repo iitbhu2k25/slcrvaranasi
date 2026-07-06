@@ -30,7 +30,7 @@ const quickLinks = [
 
 // Important Links
 const importantLinks = [
-     { label: 'Government of India', href: 'https://www.india.gov.in/' },
+    //  { label: 'Government of India', href: 'https://www.india.gov.in/' },
     
     { label: 'Ministry of Jal Shakti', href: 'https://jalshakti-dowr.gov.in/' },
     { label: 'NMCG', href: 'https://nmcg.nic.in/' },
@@ -40,8 +40,8 @@ const importantLinks = [
     { label: 'India-WRIS', href: 'https://indiawris.gov.in/' },
     { label: 'NWDA', href: 'https://nwda.gov.in/' },
     { label: 'IMD', href: 'https://mausam.imd.gov.in/' },
-    { label: 'IIT-BHU, Varanasi', href: 'https://www.iitbhu.ac.in/' },
-    { label: 'Government of UP', href: 'https://up.gov.in/en' },
+    { label: 'IIT (BHU), Varanasi', href: 'https://www.iitbhu.ac.in/' },
+    // { label: 'Government of UP', href: 'https://up.gov.in/en' },
    
     { label: 'Decision Support System', href: 'https://slcrdss.in/' },
 ];
@@ -154,12 +154,12 @@ export default function Footer() {
                                         slcr@iitbhu.ac.in
                                     </a>
                                 </li>
-                                <li className="flex items-center gap-3">
+                                {/* <li className="flex items-center gap-3">
                                     <Phone size={18} className="text-accent" />
                                     <a href="tel:+915422368106" className="hover:text-white transition-colors">
                                         +91 542-236-8106
                                     </a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ export default function Footer() {
                         <p>
                             Copyright © {currentYear} <span className="text-white font-medium">SLCR</span> | All Rights Reserved
                         </p>
-                        <p>SLCR, Indian Institute of Technology, BHU, Varanasi</p>
+                        <p>SLCR, Indian Institute of Technology (BHU), Varanasi</p>
                     </div>
                 </div>
             </div>

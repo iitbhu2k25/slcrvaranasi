@@ -24,6 +24,13 @@ const principalInvestigators = [
 // 2. Co-Principal Investigators (Added link property)
 const coPrincipalInvestigators = [
     {
+        name: 'Prof. Rajhans Negi',
+        title: 'Department of Civil Engineering, IIT(BHU)',
+        role: 'Co-Principal Investigator',
+        image: '/people/DSS/rajnegi.webp',
+        link: 'https://www.iitbhu.ac.in/dept/civ/people/rajhansciv'
+    },
+    {
         name: 'Prof. Om Damani',
         title: 'Department of Computer Science, IIT Bombay',
         role: 'Co-Principal Investigator',
@@ -79,13 +86,7 @@ const coPrincipalInvestigators = [
         image: '/people/DSS/Ram_Avtar_Sir.webp',
         link: 'https://ramenvjnu.wixsite.com/mysite'
     },
-     {
-        name: 'Prof. Rajhans Negi',
-        title: 'Department of Civil Engineering, IIT(BHU)',
-        role: 'Co-Principal Investigator',
-        image: '/people/DSS/rajnegi.webp',
-        link: 'https://www.iitbhu.ac.in/dept/civ/people/rajhansciv'
-    },
+     
 ];
 
 const researchTeam = [

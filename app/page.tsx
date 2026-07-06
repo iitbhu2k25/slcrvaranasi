@@ -345,7 +345,7 @@ export default function HomePage() {
 
                 <div className="space-y-6 text-slate-600 text-lg leading-relaxed text-justify">
                   <p>
-                    The <strong>Smart Laboratory on Clean Rivers (SLCR) - IIT BHU</strong> in Varanasi is a flagship Indo-Danish initiative advancing sustainable rejuvenation of small rivers and tributaries through integrated scientific and institutional collaboration. Conceptualized under the joint leadership of the Prime Ministers of India and Denmark, the initiative was formalized through a Memorandum of Understanding (MoU) in September 2022.
+                    The <strong>Smart Laboratory on Clean Rivers (SLCR) - IIT (BHU)</strong> in Varanasi is a flagship Indo-Danish initiative advancing sustainable rejuvenation of small rivers and tributaries through integrated scientific and institutional collaboration. Conceptualized under the joint leadership of the Prime Ministers of India and Denmark, the initiative was formalized through a Memorandum of Understanding (MoU) in September 2022.
                   </p>
                   <p>
                     SLCR aims to mobilize global expertise, advanced technologies, and best practices to support holistic river rejuvenation aligned with environmental sustainability, economic viability, and social relevance. The laboratory functions as a collaborative platform for <strong>knowledge creation, transfer, and co-creation</strong>, linking government authorities, research institutions, technology providers, and citizens within an operational governance framework.
