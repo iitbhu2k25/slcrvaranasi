@@ -11,6 +11,9 @@ const gallerySections = [
     title: 'Events',
     description: 'Workshops, conferences and activities',
     images: [
+      '/gallery/Events/scalgo2.jpeg',
+      '/gallery/Events/scalgo5.jpeg',
+      '/gallery/Events/scalgo1.jpeg',
        '/gallery/Events/envday2.jpg',
        '/gallery/Events/envday3.jpg',
        '/gallery/Events/envday1.jpg',

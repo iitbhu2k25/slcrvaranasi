@@ -55,6 +55,7 @@ const sliderImages = [
 
 // ===== NEWS TICKER DATA =====
 const newsItems = [
+  { date: "25 | June 2026", title: "One day workshop on SCALGO live organised by SLCR  , IIT (BHU) , Varanasi" },
    { date: "8 | June 2026", title: "Educational visit of students from GSFC University, Vadodara to the SLCR Lab , IIT (BHU) , Varanasi" },
    { date: "5 | June 2026", title: "World Environment Day 2026 celebration at SLCR Lab , IIT (BHU) , Varanasi" },
    { date: "29 | May 2026", title: "Visit of Mr. Rasmus Abildgaard Kristensen, Hon'ble Ambassador of Denmark to India, at the SLCR Lab , IIT (BHU) , Varanasi" },
