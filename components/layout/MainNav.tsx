@@ -31,10 +31,16 @@ const navItems: NavItem[] = [
         href: '/projects',
         children: [
             { label: 'Overview', href: '/projects' },
-            { label: 'SLCR Secretariat and Holistic River', href: '/projects/project4' },
-            { label: 'DSS', href: '/projects/project1' },
-            { label: 'HMVB', href: '/projects/project2' },
-            { label: 'EPFA', href: '/projects/project3' },
+            {
+                label: 'SLCR',
+                href: '/projects/project4',
+                children: [
+                    { label: 'SLCR Secretariat and Holistic River', href: '/projects/project4' },
+                    { label: 'DSS', href: '/projects/project1' },
+                    { label: 'HMVB', href: '/projects/project2' },
+                    { label: 'EPFA', href: '/projects/project3' },
+                ],
+            },
         ],
     },
     {
@@ -55,10 +61,16 @@ const navItems: NavItem[] = [
         children: [
             { label: 'Ministry Officials', href: '/people/mojs' },
             { label: 'NMCG', href: '/people/nmcg' },
-            { label: 'SLCR', href: '/people/slcr' },
-            { label: 'DSS', href: '/people/dss' },
-            { label: 'HMVB', href: '/people/hmvb' },
-            { label: 'EPFA', href: '/people/epfa' },
+            {
+                label: 'SLCR',
+                href: '/people/slcr',
+                children: [
+                    { label: 'SLCR Secretariat', href: '/people/slcr' },
+                    { label: 'DSS', href: '/people/dss' },
+                    { label: 'HMVB', href: '/people/hmvb' },
+                    { label: 'EPFA', href: '/people/epfa' },
+                ],
+            },
         ],
     },
     { label: 'Gallery', href: '/media' },
@@ -101,7 +113,9 @@ const generateBreadcrumbs = (pathname: string) => {
 
 export default function MainNav() {
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+    const [openSubDropdown, setOpenSubDropdown] = useState<string | null>(null);
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [mobileSubOpen, setMobileSubOpen] = useState<string | null>(null);
     const [scrolled, setScrolled] = useState(false);
     const pathname = usePathname();
     const navRef = useRef<HTMLElement>(null);
@@ -121,6 +135,8 @@ export default function MainNav() {
     useEffect(() => {
         setMobileOpen(false);
         setOpenDropdown(null);
+        setOpenSubDropdown(null);
+        setMobileSubOpen(null);
     }, [pathname]);
 
     // Click outside handler - closes dropdown when clicking outside
@@ -129,6 +145,7 @@ export default function MainNav() {
             const dropdownElement = dropdownRefs.current[openDropdown];
             if (dropdownElement && !dropdownElement.contains(event.target as Node)) {
                 setOpenDropdown(null);
+                setOpenSubDropdown(null);
             }
         }
     }, [openDropdown]);
@@ -151,11 +168,13 @@ export default function MainNav() {
     const handleDropdownClick = (label: string, event: React.MouseEvent) => {
         event.stopPropagation();
         setOpenDropdown(prev => prev === label ? null : label);
+        setOpenSubDropdown(null);
     };
 
     // Handle mouse enter for hover-to-open behavior
     const handleMouseEnter = (label: string) => {
         setOpenDropdown(label);
+        setOpenSubDropdown(null);
     };
 
     // Handle mouse leave - only close if moving completely outside the dropdown area
@@ -166,15 +185,20 @@ export default function MainNav() {
             const mouseX = event.clientX;
             const mouseY = event.clientY;
 
+            // Extend the bounds to the right when a sub-flyout is open so moving
+            // into the flyout doesn't count as leaving the dropdown area
+            const rightBound = openSubDropdown ? rect.right + 240 : rect.right;
+
             // Check if mouse is moving outside the dropdown container bounds
             const isOutside =
                 mouseX < rect.left ||
-                mouseX > rect.right ||
+                mouseX > rightBound ||
                 mouseY < rect.top ||
                 mouseY > rect.bottom + 10; // Add buffer for smooth transition
 
             if (isOutside) {
                 setOpenDropdown(null);
+                setOpenSubDropdown(null);
             }
         }
     };
@@ -234,18 +258,65 @@ export default function MainNav() {
                                             animate={{ opacity: 1, y: 0 }}
                                             exit={{ opacity: 0, y: -8 }}
                                             transition={{ duration: 0.15 }}
-                                            className="absolute left-0 top-full w-56 bg-white rounded-b-xl shadow-2xl overflow-hidden z-50"
+                                            className="absolute left-0 top-full w-56 bg-white rounded-b-xl shadow-2xl overflow-visible z-50"
                                         >
                                             {item.children.map((child) => (
-                                                <Link
-                                                    key={child.href}
-                                                    href={child.href}
-                                                    onClick={() => setOpenDropdown(null)}
-                                                    className={`block px-5 py-3 text-gray-700 hover:bg-primary hover:text-white transition-colors border-l-3 border-transparent hover:border-accent ${isActive(child.href) ? 'bg-primary/10 text-primary font-medium' : ''
-                                                        }`}
-                                                >
-                                                    {child.label}
-                                                </Link>
+                                                child.children ? (
+                                                    <div
+                                                        key={child.href}
+                                                        className="relative"
+                                                        onMouseEnter={() => setOpenSubDropdown(child.label)}
+                                                        onMouseLeave={() => setOpenSubDropdown(null)}
+                                                    >
+                                                        <button
+                                                            onClick={(e) => {
+                                                                e.stopPropagation();
+                                                                setOpenSubDropdown(prev => prev === child.label ? null : child.label);
+                                                            }}
+                                                            className={`w-full flex items-center justify-between px-5 py-3 text-gray-700 hover:bg-primary hover:text-white transition-colors border-l-3 border-transparent hover:border-accent ${isActive(child.href) ? 'bg-primary/10 text-primary font-medium' : ''
+                                                                }`}
+                                                        >
+                                                            {child.label}
+                                                            <ChevronRight size={14} />
+                                                        </button>
+                                                        <AnimatePresence>
+                                                            {openSubDropdown === child.label && (
+                                                                <motion.div
+                                                                    initial={{ opacity: 0, x: -8 }}
+                                                                    animate={{ opacity: 1, x: 0 }}
+                                                                    exit={{ opacity: 0, x: -8 }}
+                                                                    transition={{ duration: 0.15 }}
+                                                                    className="absolute left-full top-0 w-56 bg-white rounded-xl shadow-2xl overflow-hidden z-50"
+                                                                >
+                                                                    {child.children.map((grandchild) => (
+                                                                        <Link
+                                                                            key={grandchild.href}
+                                                                            href={grandchild.href}
+                                                                            onClick={() => {
+                                                                                setOpenDropdown(null);
+                                                                                setOpenSubDropdown(null);
+                                                                            }}
+                                                                            className={`block px-5 py-3 text-gray-700 hover:bg-primary hover:text-white transition-colors border-l-3 border-transparent hover:border-accent ${isActive(grandchild.href) ? 'bg-primary/10 text-primary font-medium' : ''
+                                                                                }`}
+                                                                        >
+                                                                            {grandchild.label}
+                                                                        </Link>
+                                                                    ))}
+                                                                </motion.div>
+                                                            )}
+                                                        </AnimatePresence>
+                                                    </div>
+                                                ) : (
+                                                    <Link
+                                                        key={child.href}
+                                                        href={child.href}
+                                                        onClick={() => setOpenDropdown(null)}
+                                                        className={`block px-5 py-3 text-gray-700 hover:bg-primary hover:text-white transition-colors border-l-3 border-transparent hover:border-accent ${isActive(child.href) ? 'bg-primary/10 text-primary font-medium' : ''
+                                                            }`}
+                                                    >
+                                                        {child.label}
+                                                    </Link>
+                                                )
                                             ))}
                                         </motion.div>
                                     )}
@@ -300,13 +371,48 @@ export default function MainNav() {
                                                             className="bg-gray-50 overflow-hidden"
                                                         >
                                                             {item.children.map((child) => (
-                                                                <Link
-                                                                    key={child.href}
-                                                                    href={child.href}
-                                                                    className="block px-8 py-2.5 text-gray-600 hover:text-primary border-l-3 border-transparent hover:border-accent"
-                                                                >
-                                                                    {child.label}
-                                                                </Link>
+                                                                child.children ? (
+                                                                    <div key={child.href}>
+                                                                        <button
+                                                                            onClick={() => setMobileSubOpen(mobileSubOpen === child.label ? null : child.label)}
+                                                                            className="w-full flex items-center justify-between px-8 py-2.5 text-gray-600 hover:text-primary border-l-3 border-transparent hover:border-accent"
+                                                                        >
+                                                                            {child.label}
+                                                                            <ChevronDown
+                                                                                size={16}
+                                                                                className={`transition-transform ${mobileSubOpen === child.label ? 'rotate-180' : ''}`}
+                                                                            />
+                                                                        </button>
+                                                                        <AnimatePresence>
+                                                                            {mobileSubOpen === child.label && (
+                                                                                <motion.div
+                                                                                    initial={{ height: 0 }}
+                                                                                    animate={{ height: 'auto' }}
+                                                                                    exit={{ height: 0 }}
+                                                                                    className="bg-gray-100 overflow-hidden"
+                                                                                >
+                                                                                    {child.children.map((grandchild) => (
+                                                                                        <Link
+                                                                                            key={grandchild.href}
+                                                                                            href={grandchild.href}
+                                                                                            className="block px-11 py-2 text-gray-600 hover:text-primary border-l-3 border-transparent hover:border-accent"
+                                                                                        >
+                                                                                            {grandchild.label}
+                                                                                        </Link>
+                                                                                    ))}
+                                                                                </motion.div>
+                                                                            )}
+                                                                        </AnimatePresence>
+                                                                    </div>
+                                                                ) : (
+                                                                    <Link
+                                                                        key={child.href}
+                                                                        href={child.href}
+                                                                        className="block px-8 py-2.5 text-gray-600 hover:text-primary border-l-3 border-transparent hover:border-accent"
+                                                                    >
+                                                                        {child.label}
+                                                                    </Link>
+                                                                )
                                                             ))}
                                                         </motion.div>
                                                     )}
