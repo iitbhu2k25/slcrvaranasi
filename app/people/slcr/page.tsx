@@ -27,6 +27,13 @@ const principalInvestigators = [
         profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/aohriciv', // Added link
     },
     {
+        name: 'Prof. Pramod Soni',
+        title: 'Co-Principal Investigator',
+        department: 'Department of Civil Engineering, IIT(BHU)',
+        image: '/people/DSS/Picture2.jpg',
+        profileUrl: 'https://www.iitbhu.ac.in/dept/civ/people/pramodciv'
+    },
+    {
         name: 'Prof. Anshuman Satpathy',
         title: 'Co-Principal Investigator',
         department: 'Department of Civil Engineering, IIT(BHU)',
@@ -118,7 +125,7 @@ export default function SLCRPeoplePage() {
                     <h2 className="text-2xl font-bold text-[#0a3d62] text-center mb-10 border-b border-gray-200 pb-4 inline-block w-full max-w-md mx-auto">
                         Principal Investigators
                     </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center max-w-6xl mx-auto">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 justify-items-center max-w-8xl mx-auto">
                         {principalInvestigators.map((person, index) => (
                             <motion.div
                                 key={person.name}

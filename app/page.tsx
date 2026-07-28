@@ -307,6 +307,23 @@ function HeroImageSlider() {
   );
 }
 
+// ===== HERO VIDEO COMPONENT (temporary, replaces HeroImageSlider) =====
+// function HeroVideo() {
+//   return (
+//     <section className="relative w-full h-[550px] sm:h-[700px] md:h-[800px] overflow-hidden bg-slate-900">
+//       <video
+//         className="absolute inset-0 w-full h-full object-cover"
+//         src="/frontvideo1.mp4"
+//         autoPlay
+//         loop
+//         muted
+//         playsInline
+//       />
+//       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+//     </section>
+//   );
+// }
+
 // ===== MAIN HOME PAGE COMPONENT =====
 export default function HomePage() {
   return (
