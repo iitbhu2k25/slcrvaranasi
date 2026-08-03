@@ -1,9 +1,10 @@
-import { ReactNode } from "react";
+import { ReactNode, Suspense } from "react";
 import { Inter } from "next/font/google";
 import TopBar from "@/components/layout/TopBar";
 import Header from "@/components/layout/Header";
 import MainNav from "@/components/layout/MainNav";
 import Footer from "@/components/layout/Footer";
+import Analytics from "@/components/analytics/Analytics";
 import "./globals.css";
 
 const inter = Inter({
@@ -25,6 +26,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className={inter.variable}>
       <body className={`${inter.className} antialiased`}>
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
+
         {/* Top Government Links Bar */}
         <TopBar />
 
