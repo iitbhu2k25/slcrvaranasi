@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import TopBar from "@/components/layout/TopBar";
 import Header from "@/components/layout/Header";
 import MainNav from "@/components/layout/MainNav";
@@ -41,6 +42,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
         {/* Footer */}
         <Footer />
+
+        {/* Vercel Analytics */}
+        <Analytics />
       </body>
     </html>
   );

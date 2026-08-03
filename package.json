@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
+    "@vercel/analytics": "^2.0.1",
     "framer-motion": "^12.23.24",
     "hls": "^0.0.1",
     "hls.js": "^1.6.15",
