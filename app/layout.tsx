@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import TopBar from "@/components/layout/TopBar";
 import Header from "@/components/layout/Header";
 import MainNav from "@/components/layout/MainNav";
@@ -41,6 +42,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
         {/* Footer */}
         <Footer />
+
+        {/* Vercel Speed Insights */}
+        <SpeedInsights />
       </body>
     </html>
   );
