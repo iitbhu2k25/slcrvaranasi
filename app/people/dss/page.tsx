@@ -91,16 +91,12 @@ const coPrincipalInvestigators = [
 
 const researchTeam = [
     { name: 'Dr. Akash Tiwari', title: 'Research Associate', image: '/people/DSS/akss.JPG' },
-    { name: 'Dr. Alok Raj', title: 'Young Professional (Data Analyst)', image: '/people/DSS/Picture4.png' },
-    { name: 'Dr. Anand', title: 'Young Professional (Project Coordinator)', image: '/people/DSS/Picture5.jpg' },
-    { name: 'Dr. Arkadeep Dutta', title: 'Young Professional (Social-Community Expert)', image: '/people/DSS/Picture6.png' },
-    { name: 'Shri. Rajarshi Bhattacharjee', title: 'Young Professional (Mathematical Modelling)', image: '/people/DSS/Picture7.jpg' },
+    
     { name: 'Shri. Hariom Singh Rathore', title: 'Young Professional (Programmer)', image: '/people/DSS/Picture8.png' },
     { name: 'Shri. Rajat', title: 'Junior Research Fellow (JRF)', image: '/people/DSS/Picture9.jpg' },
+    { name: 'Shri Jaysurya Bhattacharya', title: 'Junior Research Fellow (JRF)', image: '/people/DSS/surya.jpg' },
     { name: 'Shri Rajkumar Choudhary', title: 'Junior Research Fellow (JRF)', image: '/people/DSS/Picture10.jpg' },
-    { name: 'Ms. Muskan Gupta', title: 'Junior Research Fellow (JRF)', image: '/people/DSS/Picture11.jpg' },
     { name: 'Mr. Mohd. Anas Khan', title: 'Project Assistant', image: '/people/DSS/Picture12.jpg' },
-    { name: 'Ms. Aditi Mishra', title: 'Project Assistant', image: '/people/DSS/Picture13.jpg' },
     { name: 'Mr. Gaurav', title: 'Project Assistant', image: '/people/DSS/Picture15.png' },
 ];
 

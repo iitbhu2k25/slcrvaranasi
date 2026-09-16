@@ -29,11 +29,7 @@ const researchTeam = [
         title: 'Research Associate (I)',
         image: '/people/HMVB/image2.jpg',
     },
-    {
-        name: 'Ashutosh Goutam',
-        title: 'Junior Research Fellow (JRF)',
-        image: '/people/HMVB/image3.jpg',
-    },
+   
     {
         name: 'Abhishek Singh',
         title: 'Project Assistant',

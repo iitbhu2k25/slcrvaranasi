@@ -45,11 +45,7 @@ const principalInvestigators = [
 
 // Research and Development Team
 const researchTeam = [
-    {
-        name: 'Dr. Hema Patel',
-        title: 'Senior Project Scientist',
-        image: '/people/slcr/image2.jpg',
-    },
+    
     {
         name: 'Dr. Nikhilesh Singh',
         title: 'Research Associate III',
@@ -60,26 +56,14 @@ const researchTeam = [
         title: 'Research Associate I',
         image: '/people/slcr/image10.jpg',
     },
-    {
-        name: 'Dr. Dinkar Parashar',
-        title: 'Research Associate I',
-        image: '/people/slcr/image9.jpg',
-    },
+   
     {
         name: 'Shri. Chakravarti Patel',
         title: 'Project Assistant (Technical)',
         image: '/people/slcr/image1.jpg',
     },
-    {
-        name: 'Shri Amit Kumar Sonkar',
-        title: 'Project Assistant (Technical)',
-        image: '/people/slcr/amit.jpg',
-    },
-    {
-        name: 'Shri Abhishek Kumar',
-        title: 'Project Attendant',
-        image: '/people/slcr/image6.jpg',
-    },
+    
+    
 ];
 
 // Admin Team

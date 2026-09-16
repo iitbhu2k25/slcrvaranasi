@@ -24,10 +24,10 @@ const mojsOfficials = [
         image: '/people/mojs/bhushan.png',
     },
     {
-        name: 'Shri V L kantha Rao',
+        name: 'Smt Archana Varma',
         title: "Secretary",
         department: 'Ministry of Jal Shakti',
-        image: '/people/mojs/secretary1.jpg',
+        image: '/people/mojs/archana.jpg',
     },
     
 ];
