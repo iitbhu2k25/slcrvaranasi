@@ -5,14 +5,19 @@ import { motion } from 'framer-motion';
 
 const nmcgOfficials = [
     {
-        name: 'Shri Rajeev Mittal',
-        title: 'DG, National Mission For Clean Ganga',
+        name: 'Shri Rajeev Kumar Mittal',
+        title: 'Director General, National Mission For Clean Ganga',
         image: '/people/nmcg/Rajeev_Mital1.jpg',
     },
     {
         name: 'Shri Nalin Kumar Srivastava',
-        title: 'DDG, National Mission For Clean Ganga',
+        title: 'Deputy Director General, National Mission For Clean Ganga',
         image: '/people/nmcg/nalin_sir.png',
+    },
+    {
+        name: 'Shri Brijendra Swaroop',
+        title: 'Executive Director (Projects), National Mission For Clean Ganga',
+        image: '/people/nmcg/bswaroop2.jpg',
     },
     {
         name: 'Shri Anup Kumar Srivastava',
@@ -20,8 +25,8 @@ const nmcgOfficials = [
         image: '/people/nmcg/aps.jpg',
     },
     {
-        name: 'Shri Dheeraj Joshi',
-        title: 'Director(Urban), National Mission For Clean Ganga',
+        name: 'Shri   Dheeraj   Joshi',
+        title: 'Director (Urban) , National Mission For Clean Ganga',
         image: '/people/nmcg/dheeraj_joshi.jpeg',
     },
 ];
@@ -46,32 +51,32 @@ export default function NMCGPage() {
                 </motion.div>
 
                 {/* Officials Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 justify-items-center max-w-8xl mx-auto">
                     {nmcgOfficials.map((person, index) => (
                         <motion.div
                             key={person.name}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.1 }}
-                            className="bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-slate-100 group"
+                            className="w-full max-w-[360px] h-full"
                         >
-                            <div className="h-64 overflow-hidden relative">
-                                <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300 z-10" />
-                                <Image
-                                    src={person.image}
-                                    alt={person.name}
-                                    width={300}
-                                    height={400}
-                                    className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500"
-                                />
-                            </div>
-                            <div className="p-5 text-center bg-gradient-to-b from-white to-blue-50/50">
-                                <h3 className="text-xl font-bold text-slate-800 mb-2">
-                                    {person.name}
-                                </h3>
-                                <p className="text-sm text-blue-600 font-medium leading-tight">
-                                    {person.title}
-                                </p>
+                            <div className="flex flex-col h-full bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 group">
+                                <div className="h-60 w-full relative overflow-hidden bg-gray-100">
+                                    <Image
+                                        src={person.image}
+                                        alt={person.name}
+                                        fill
+                                        className="object-cover object-top transition-transform duration-500 group-hover:scale-110"
+                                    />
+                                </div>
+                                <div className="px-6 py-4 text-center flex flex-col flex-1">
+                                    <h3 className="text-lg font-bold text-[#0a3d62] mb-1">
+                                        {person.name}
+                                    </h3>
+                                    <p className="text-sm text-blue-600 font-medium leading-snug">
+                                        {person.title}
+                                    </p>
+                                </div>
                             </div>
                         </motion.div>
                     ))}
