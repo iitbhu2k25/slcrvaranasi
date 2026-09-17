@@ -25,7 +25,7 @@ const mojsOfficials = [
     },
     {
         name: 'Smt Archana Varma',
-        title: "Secretary",
+        title: "Hon'ble Secretary",
         department: 'Ministry of Jal Shakti',
         image: '/people/mojs/archana.jpg',
     },
