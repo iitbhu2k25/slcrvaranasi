@@ -17,7 +17,7 @@ const nmcgOfficials = [
     {
         name: 'Shri Brijendra Swaroop',
         title: 'Executive Director (Projects), National Mission For Clean Ganga',
-        image: '/people/nmcg/bswaroop2.jpg',
+        image: '/people/nmcg/bswar.png',
     },
     {
         name: 'Shri Anup Kumar Srivastava',
@@ -27,7 +27,7 @@ const nmcgOfficials = [
     {
         name: 'Shri   Dheeraj   Joshi',
         title: 'Director (Urban) , National Mission For Clean Ganga',
-        image: '/people/nmcg/dheeraj_joshi.jpeg',
+        image: '/people/nmcg/djoshi.png',
     },
 ];
 
