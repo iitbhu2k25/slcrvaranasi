@@ -5,6 +5,7 @@ import Header from "@/components/layout/Header";
 import MainNav from "@/components/layout/MainNav";
 import Footer from "@/components/layout/Footer";
 import Analytics from "@/components/analytics/Analytics";
+import GameButton from "@/components/ui/GameButton";
 import "./globals.css";
 
 const inter = Inter({
@@ -46,6 +47,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
         {/* Footer */}
         <Footer />
+
+        {/* Floating Game Button */}
+        <GameButton />
       </body>
     </html>
   );

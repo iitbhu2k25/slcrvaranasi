@@ -98,6 +98,7 @@ const researchTeam = [
     { name: 'Shri Rajkumar Choudhary', title: 'Junior Research Fellow (JRF)', image: '/people/DSS/Picture10.jpg' },
     { name: 'Mr. Mohd. Anas Khan', title: 'Project Assistant', image: '/people/DSS/Picture12.jpg' },
     { name: 'Mr. Gaurav', title: 'Project Assistant', image: '/people/DSS/Picture15.png' },
+    { name: 'Ms. Muskan Gupta', title: 'Junior Research Fellow (JRF)', image: '/people/DSS/Picture11.jpg' },
 ];
 
 const adminTeam = [
